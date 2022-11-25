@@ -7,18 +7,23 @@
     <title>About Us</title>
 
     <link rel="stylesheet" href="stylesheet-default.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+            $('#header').load('header.html');
+        });
+        $(function(){
+            $('#footer').load('footer.html');
+        });
+    </script>
+    
 
 </head>
 <body>
-
-    <header id="header">
-
-    </header>
+    <header id="header"></header>
 
 
-    <footer id="footer">
-
-    </footer>
-     
+    <footer id="footer"></footer>
 </body>
 </html>
