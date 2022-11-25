@@ -7,6 +7,7 @@
     <title>Sustainable Development</title>
 
     <link rel="stylesheet" href="stylesheet-map.css" />
+    <link rel="stylesheet" href="stylesheet-default.css" />
 
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
@@ -14,7 +15,11 @@
         $(function(){
             $('#header').load('header.html');
         });
+        $(function(){
+            $('#footer').load('footer.html');
+        });
     </script>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
 
@@ -22,7 +27,10 @@
     <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
 </head>
 <body>
-    <div id="header"></div>
+    <header id="header">
+
+    </header>
+    
     <div class="map-container">
     <div id="map"></div>
     </div>
@@ -42,10 +50,14 @@
                     stroke: "#313131",
                     strokeWidth: 0.4,
                     fillOpacity: 1
-                }
+                },
+                showTooltip: false
             }
         });
     </script>
+    <footer id="footer">
+
+    </footer>
     
 </body>
 </html>
