@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustainable Development</title>
 
-    <link rel="stylesheet" href="jquery-jvectormap-2.0.5.css" />
+    <link rel="stylesheet" href="stylesheet-map.css" />
 
     <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
 
@@ -23,6 +23,20 @@
         var map = new jsVectorMap({
             selector: "#map",
             map: "world",
+            regionStyle: {
+                initial: {
+                    fill: '#51b29c',
+                    stroke: "313131",
+                    strokeWidth: 1,
+                    fillOpacity: 1
+                },
+                hover: {
+                    fill: '#30af91',
+                    stroke: "#313131",
+                    strokeWidth: 1,
+                    fillOpacity: 1
+                }
+            }
         });
     </script>
     
