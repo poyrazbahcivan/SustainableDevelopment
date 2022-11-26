@@ -3,7 +3,7 @@ svg {
 }
 
 .map-container{
-    position: absolute;
+    position: absolute center;
     top: 0;
     right: 0;
     bottom: 0;
