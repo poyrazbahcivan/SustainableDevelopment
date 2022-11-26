@@ -72,8 +72,51 @@
     margin-top: 60px;
     text-align: center;
 }
-.annen h1 {
+.annen .h11 {
     font-size: 48px;
-    margin-bottom: 25px;
-    
+    margin-bottom: 60px;   
+}
+.annen .h12 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.annen img {
+    border-radius: 50%;
+}
+.annen .ourTeam1 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.annen .ourTeam1 .team_member {
+    width: 230px;
+    margin: 60px;
+}
+.baban {
+    margin-top: 60px;
+    text-align: center;
+}
+.baban h1 {
+    font-size: 35px;
+}
+.baban img {
+    border-radius: 50%;
+}
+.baban .ourTeam2 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.baban .ourTeam2 .team_member {
+    width: 230px;
+    margin: 60px;
+}
+.baban .ourTeam3 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.baban .ourTeam3 .team_member {
+    width: 230px;
+    margin: 60px;
 }
