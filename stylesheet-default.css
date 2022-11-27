@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -22,7 +23,6 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     opacity: 90%;
 
 }
@@ -58,17 +58,29 @@ body {
     margin-left: 20px;
 }
 
+
+#footer-info{
+    height: 300px;
+    background-color: rgb(18, 17, 19);
+}
+
 #footer{
     position: bottom absolute;
     bottom: 0;
     width: 100%;
-    height: 70px;
+    height: 60px;
     z-index: 999;
     opacity: 100%;
     background-color: blueviolet;
     color: white;
     text-align: center;
     text-decoration: none;
+}
+
+#credit{
+    margin-top: 23px;
+    margin-left: 17px;
+    font-size: 13px;
 }
 
 
@@ -166,7 +178,7 @@ body {
 }
 .yapistir {
     display: block;
-    background: #9b59b6;
+    background: blueviolet;
     padding: 14px 0;
     color: white;
     text-transform: uppercase;
