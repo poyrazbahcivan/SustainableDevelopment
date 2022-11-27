@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countries | Sustainable Devolopment</title>
     <link rel="stylesheet" href="stylesheet-default.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+            $('#header').load('header.html');
+        });
+        $(function(){
+            $('#footer').load('footer.html');
+        });
+    </script>
 </head>
 <body>
+    <header id="header"></header>
     <div class="countriesBox">
         <p id="t11">Countries by Regions</p>
         <div class="regions">
@@ -1406,5 +1417,6 @@
             </div>
         </div>
     </div>
+    <footer id="footer"></footer>
 </body>
 </html>

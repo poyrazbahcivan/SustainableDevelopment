@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="stylesheet-default.css">
 
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-
+    <script src="lib/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
         $(function(){
             $('#header').load('header.html');
@@ -29,24 +30,24 @@
         <div class="diyar">
             <div class="ahey_ahey">
             <Label>Full Name: </Label>
-            <input type="text" name="" value="" placeholder="Enter Your Name">
+            <input id="fullname" type="text" name="" value="" placeholder="Enter Your Name">
             </div>
 
             <div class="ahey_ahey">
             <Label>Email: </Label>
-            <input type="email" name="" value="" placeholder="Enter Your Email">
+            <input id="email" type="email" name="" value="" placeholder="Enter Your Email">
             </div>
 
             <div class="ahey_ahey">
                 <Label>Subject: </Label>
-                <input type="text" name="" value="" placeholder="Enter Your Subject">
+                <input id="subject" type="text" name="" value="" placeholder="Enter Your Subject">
             </div>
 
             <div class="ahey_ahey">
                 <label>Message:</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea id="message" name="" id="" cols="30" rows="10"></textarea>
             </div>
-            <a class="yapistir">Send</a>
+            <a class="yapistir" onclick="sendContact()">Send</a>
         </div>
     </div>
     <footer id="footer">
