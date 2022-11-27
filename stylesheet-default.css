@@ -125,24 +125,28 @@ body {
 }
 .ububjub {
     width: 85%;
-    max-width: 600px;
-    background: #f1f1f1;
+    max-width: 1000px;
+    background: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 30px 40px;
-    border-radius: 8px;
+    padding: 30px 60px;
     text-align: center;
-    box-shadow: 0 0 20px #000000b3;
     font-family: "Montserrat", sans-serif;
 }
 .ububjub h1 {
-    margin-top: 0;
+    margin-top: 30px;
     font-weight: 200;
 }
+.ububjub p {
+    margin-top: 30px;
+}
+.ububjub .diyar {
+    margin-top: 30px;
+}
 .ahey_ahey {
-    border: 1px solid gray;
+    border: 3px solid gray;
     margin: 8px 0;
     padding: 12px 18px;
     border-radius: 8px;
@@ -171,4 +175,5 @@ body {
     cursor: pointer;
     margin-top: 8px;
     width: 100%;
+    border-radius: 8px;
 }
