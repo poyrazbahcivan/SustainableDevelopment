@@ -175,3 +175,11 @@ body {
     width: 100%;
     border-radius: 8px;
 }
+.countriesBox {
+    margin-top: 60px;
+    text-align: center;
+}
+.countriesBox #t11 {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
