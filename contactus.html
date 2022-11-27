@@ -27,7 +27,7 @@
     <div class="ububjub">
         <h1>Have Questions? Contact Us!</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui architecto optio ducimus temporibus ut tenetur sapiente voluptatem quasi atque eos possimus vero nostrum omnis fugiat corporis nisi impedit, ex, molestiae, suscipit reiciendis deleniti. Facilis voluptate optio dolor, nostrum corrupti nisi tenetur reprehenderit iste! Pariatur consequuntur ipsum non quibusdam dolore.</p>
-        <div class="diyar">
+        <form class="diyar" onsubmit="sendEmail(); reset(); return false;">
             <div class="ahey_ahey">
             <Label>Full Name: </Label>
             <input id="fullname" type="text" name="" value="" placeholder="Enter Your Name">
@@ -47,8 +47,8 @@
                 <label>Message:</label>
                 <textarea id="message" name="" id="" cols="30" rows="10"></textarea>
             </div>
-            <a class="yapistir" onclick="sendContact()">Send</a>
-        </div>
+            <button type="submit" class="yapistir">Send</button>
+        </form>
     </div>
     <footer id="footer">
 
