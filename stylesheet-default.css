@@ -187,6 +187,11 @@ body {
     width: 100%;
     border-radius: 8px;
 }
+
+.yapistir:hover{
+    background-color: rgb(150, 63, 231);
+}
+
 .countriesBox {
     margin-top: 60px;
     text-align: center;
