@@ -254,7 +254,7 @@ body {
     height: 700px;
     overflow: auto;
 }
-.column button {
+.column button {/*a*/
     border: none;
     background: none;
     position: relative;
