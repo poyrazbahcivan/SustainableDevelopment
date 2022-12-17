@@ -241,3 +241,23 @@ body {
     width: 230px;
     margin: 60px;
 }
+.main {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+.column {
+    border: 2px solid black;
+    position: relative;
+    left: 50%;
+    transform: translate(200%,0);
+    width: 200px;
+    height: 700px;
+    overflow: auto;
+}
+.column button {/*aaa*/
+    border: none;
+    background: none;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
