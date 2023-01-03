@@ -13,15 +13,17 @@
         $(function(){
             $('#footer').load('footer.html');
         });
+        function onButtonClick(button){
+            code = button.value;
+            window.open("countrydata.html#"+code,"_self");
+        }
     </script>
     <script>
         if(window.location.hash) {
             var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
-            alert (hash);
-            // hash found
         } 
         else {
-            // No hash found
+
         }
     </script>
     <title>Country Data | Sustainable Devolopment</title>
@@ -36,7 +38,7 @@
             </div>
         </div>
         <div class="column">
-            <div><button>hi</button></div><hr>
+            <button onclick="onButtonClick(this)" value="af">Afghanistan</button><hr>
             <div><button>hi</button></div><hr>
             <div><button>yürüyen cinsellik</button></div><hr>
             <div><button></button></div><hr>
