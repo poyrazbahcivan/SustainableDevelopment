@@ -34,19 +34,19 @@
                 "goal2": {"one": "3.8"},
                 "goal3": {"one": "78.3","two": "0.40%","three": "9.3","four": "5.929"},
                 "goal4": {"one": "98.1%","two": "4,80237","three": "N/A","four": "12"},
-                "gaol5": {"one": "45","two": "N/A","three": "11,6","four": "50"},
-                "gaol6": {"one": "","two": "","three": "","four": ""},
-                "gaol7": {"one": "","two": "","three": "","four": ""},
-                "gaol8": {"one": "","two": "","three": "","four": ""},
-                "gaol9": {"one": "","two": "","three": "","four": ""},
-                "gaol10": {"one": "","two": ""},
-                "gaol11": {"one": ""},
-                "gaol12": {"one": "","two": "","three": "","four": ""},
-                "gaol13": {"one": "","two": "","three": ""},
-                "gaol14": {"one": "","two": "","three": "","four": ""},
-                "gaol15": {"one": "","two": "","three": "","four": ""},
-                "gaol16": {"one": "","two": "","three": "","four": ""},
-                "gaol17": {"one": "","two": "","three": ""}
+                "goal5": {"one": "45","two": "N/A","three": "11,6","four": "50"},
+                "goal6": {"one": "","two": "","three": "","four": ""},
+                "goal7": {"one": "","two": "","three": "","four": ""},
+                "goal8": {"one": "","two": "","three": "","four": ""},
+                "goal9": {"one": "","two": "","three": "","four": ""},
+                "goal10": {"one": "","two": ""},
+                "goal11": {"one": ""},
+                "goal12": {"one": "","two": "","three": "","four": ""},
+                "goal13": {"one": "","two": "","three": ""},
+                "goal14": {"one": "","two": "","three": "","four": ""},
+                "goal15": {"one": "","two": "","three": "","four": ""},
+                "goal16": {"one": "","two": "","three": "","four": ""},
+                "goal17": {"one": "","two": "","three": ""}
             }
         }
     ]
