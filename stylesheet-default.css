@@ -375,3 +375,8 @@ body {
     padding-block: 14px;
     width: 217px;
 }
+.team_member .member_img img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 20px;
+}
