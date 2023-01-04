@@ -246,7 +246,8 @@ body {
     margin-top: 20px;
 }
 .column {
-    border: 2px solid black;
+    border: 2px solid #cbcbcb;
+    border-radius: 4px;
     position: relative;
     left: 50%;
     transform: translate(200%,0);
@@ -295,6 +296,7 @@ body {
 .left {
     position: absolute;
     width: 80%;
+    box-sizing: border-box;
 }
 .left .datapage_flag {
     position: relative;
@@ -302,6 +304,8 @@ body {
     transform: translate(-50%, 0);
     width: 600px;
     height: 350px;
+    margin-bottom: 25px;
+    border-radius: 0;
 }
 .left .tables_of_data {
     position: relative;
@@ -319,34 +323,55 @@ body {
     margin-inline-end: 130px;
 }
 .left .part_of_goals {
-    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: -6px 4px 18px rgba(32, 32, 32, .3);
+}
+.left .left_table .part_of_goals {
+    margin-bottom: 35.3px;
 }
 .left .part_of_goals .title_of_goal {
-    border: 2px solid black;
-    border-radius: 2px;
+    border-radius: 0;
     padding: 14px;
     padding-inline: 20px;
     width: 400px;
     height: auto;
+    color: white;
+    background-color: rgb(161, 74, 243);
+    text-transform: uppercase;
 }
 .left .part_of_goals .subtitles {
     display: flex;
     justify-content: center;
+    width: auto;
 }
 .left .part_of_goals .subtitles .subtitle_name {
-    border: 2px solid black;
-    border-radius: 2px;
-    margin-top: -2px;
+    position: relative;
+    border: 2px solid #bdbdbd;
+    border-top: none;
+    border-radius: 0;
     padding-block: 14px;
-    width: 220px;
-    height: auto;
-    
+    width: 217px;
 }
 .left .part_of_goals .subtitles .subtitle_value {
-    border: 2px solid black;
-    border-radius: 2px;
-    margin-top: -2px;margin-left: -2px;
+    border: 2px solid #bdbdbd;
+    border-top: none;
+    border-radius: 0;
+    margin-left: -2px;
     padding-block: 14px;
-    width: 218px;
-    height: auto;
+    width: 217px;
+}
+.left .part_of_goals .subtitles .subtitle_value_last {
+    border: 2px solid #bdbdbd;
+    border-top: none;
+    border-radius: 0;
+    margin-left: -2px;
+    padding-block: 14px;
+    width: 217px;
+}
+.left .part_of_goals .subtitles .subtitle_name_last {
+    border: 2px solid #bdbdbd;
+    border-top: none;
+    border-radius: 0;
+    padding-block: 14px;
+    width: 217px;
 }
