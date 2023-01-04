@@ -289,3 +289,64 @@ body {
     float: left;
     cursor: pointer;
 }
+.main {
+    margin-bottom: 500px;
+}
+.left {
+    position: absolute;
+    width: 80%;
+}
+.left .datapage_flag {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 600px;
+    height: 350px;
+}
+.left .tables_of_data {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.left .left_table {
+    position: relative;
+    margin-inline: 130px;
+}
+.left .right_table {
+    position: relative;
+    margin-inline-end: 130px;
+}
+.left .part_of_goals {
+    margin-top: 25px;
+}
+.left .part_of_goals .title_of_goal {
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 14px;
+    padding-inline: 20px;
+    width: 400px;
+    height: auto;
+}
+.left .part_of_goals .subtitles {
+    display: flex;
+    justify-content: center;
+}
+.left .part_of_goals .subtitles .subtitle_name {
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: -2px;
+    padding-block: 14px;
+    width: 220px;
+    height: auto;
+    
+}
+.left .part_of_goals .subtitles .subtitle_value {
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: -2px;margin-left: -2px;
+    padding-block: 14px;
+    width: 218px;
+    height: auto;
+}
