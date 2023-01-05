@@ -258,7 +258,7 @@ body {
 }
 .column .scroll {
     border: 2px solid #bdbdbd;
-    height: 700px;
+    height: 2100px;
     overflow: auto;
     width: 200px;
     overflow-x: hidden;
