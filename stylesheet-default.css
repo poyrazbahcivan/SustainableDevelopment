@@ -271,6 +271,7 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
+    cursor: pointer;
 }
 .column .scroll::-webkit-scrollbar {
     width: 5px;
@@ -379,4 +380,114 @@ body {
     max-width: 1000px;
     text-align: center;
     justify-content: center;
+}
+.list_scroll {
+    position: relative;
+    left: 50%;
+    transform: translate(225%,0);
+    width: 200px;
+    box-shadow: -6px 5px 18px rgba(32, 32, 32, .3);
+    margin-block: 25px;
+}
+.list_scroll .head {
+    position: relative;
+    color: white;
+    background-color: blueviolet;
+    width: 204px;
+    text-transform: uppercase;
+    padding-block: 14px;
+    text-align: center;
+}
+.list_scroll .scroll {
+    border: 2px solid #bdbdbd;
+    height: 710px;
+    overflow: auto;
+    width: 200px;
+    overflow-x: hidden;
+}
+.list_scroll .scroll button {
+    width: 200px;
+    padding: 2px;
+    padding-block: 10px;
+    margin-top: -2px;
+    border: 2px solid #bdbdbd;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    cursor: pointer;
+}
+.list_scroll .scroll::-webkit-scrollbar {
+    width: 5px;
+}
+.list_scroll .scroll::-webkit-scrollbar-thumb {
+    background-color: blueviolet;
+    border-radius: 6px;
+}
+.list_scroll button:hover {
+    background-color: #ccc;
+    width: 200px;
+}
+.list_container {
+    position: absolute;
+    box-sizing: border-box;
+    width: 82%;
+}
+.list_container .list_list {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 1000px;
+    height: 750px;
+    margin-bottom: 25px;
+    border-radius: 0;
+}
+.list_container .list_list .head {
+    position: relative;
+    color: white;
+    background-color: blueviolet;
+    width: 1000px;
+    text-transform: uppercase;
+    padding-block: 14px;
+    text-align: center;
+}
+.list_container .list_list .list_but_scroll {
+    position: relative;
+    box-shadow: -6px 5px 18px rgba(32, 32, 32, .3);
+    max-width: 1000px;
+    max-height: 710px;
+    overflow-x: auto;
+    overflow-x: hidden;
+    border: 2px solid #bdbdbd;
+    display: flex;
+}
+.list_but_scroll::-webkit-scrollbar {
+    width: 5px;
+}
+.list_but_scroll::-webkit-scrollbar-thumb {
+    background-color: blueviolet;
+    border-radius: 6px;
+}
+#subtitles_of_list_of_list {
+    position: relative;
+    width: 200px;
+}
+#subtitles_of_list_of_list1 {
+    position: relative;
+    width: 200px;
+    margin-left: -2px;
+}
+#subtitles_of_list_of_list2 {
+    position: relative;
+    width: 200px;
+    margin-left: -2px;
+}
+.the_last_waterbender, .the_last_airbender {
+    position: relative;
+    padding: 14px;
+    margin-top: -2px;
+    border-top: 2px solid #bdbdbd;
+    border-right: 2px solid #bdbdbd;
+}
+#subtitles_of_list_of_list2 .the_last_airbender, #subtitles_of_list_of_list2 .the_last_waterbender {
+    border-right: none;
 }
