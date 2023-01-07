@@ -3,7 +3,7 @@
                 "goal2": {"one": ""},
                 "goal3": {"one": "","two": "","three": "","four": ""},
                 "goal4": {"one": "","two": "","three": "","four": ""},
-                "goal5": {"one": "","two": "","three": "","four": ""},
+                "goal5": {"one": "","three": "","four": ""},
                 "goal6": {"one": "","two": "","three": "","four": ""},
                 "goal7": {"one": "","two": "","three": "","four": ""},
                 "goal8": {"one": "","two": "","three": "","four": ""},
