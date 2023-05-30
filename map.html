@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Development</title>
+    <link rel="stylesheet" href="stylesheet-map.css" />
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+            $('#header').load('header.html');
+        });
+    </script>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+</head>
+<body>
+    <header id="header"></header>
+    <div style="height: 90%;" id="map"></div>
+    <script>
+        var map = new jsVectorMap({
+            selector: "#map",
+            map: "world",
+            showTooltip: false,
+            zoomButtons: false,
+             visualizeData: {
+                 scale: ['#eeeeee', '#999999'],
+                 values: {
+                     EG: 19,
+                     US: 100,
+                     CA: 190,
+                     BR: 71,
+                },
+                hover: {
+                    fill: '#30af91',
+                    stroke: "#313131",
+                    strokeWidth: 0.4,
+                    fillOpacity: 1
+                },
+            },
+            onRegionClick:function(event, code){            
+                      var name = (code);                          
+                      var code = code.toLowerCase();
+                      window.open("countrydata.html#"+code,"_self");
+                      }
+        });
+    </script>
+</body>
+</html>
