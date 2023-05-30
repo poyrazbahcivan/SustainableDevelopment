@@ -26,7 +26,18 @@
     <header id="header"></header>
     <div style="height: 90%;" id="map"></div>
     <script>
-        var map = new jsVectorMap({
+        const map = new jsVectorMap({
+            visualizeData: {
+                scale: ['#eeeeee', '#999999'],
+                values: {
+                    EG: 29,
+                    US: 100,
+                    CA: 190,
+                    BR: 75,
+            }
+          }
+        })
+        const map = new jsVectorMap({
             selector: "#map",
             map: "world",
             showTooltip: false,
