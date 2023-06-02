@@ -20,8 +20,8 @@ body {
     z-index: 999;
     height: 70px;
 
-    background-color: blueviolet;
-    color: coral;
+    background-color: ghostwhite;
+    color: ghostwhite;
     text-align: center;
     text-decoration: none;
     opacity: 90%;
@@ -45,7 +45,7 @@ body {
 
 #header a{
     text-align: center;
-    color: white;
+    color: crimson;
 }
 
 #navigation{
@@ -67,8 +67,8 @@ body {
     height: 60px;
     z-index: 999;
     opacity: 100%;
-    background-color: blueviolet;
-    color: white;
+    background-color: ghostwhite;
+    color: ghostwhite;
     text-align: center;
     text-decoration: none;
 }
