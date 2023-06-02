@@ -20,8 +20,8 @@ body {
     z-index: 999;
     height: 70px;
 
-    background-color: blueviolet;
-    color: white;
+    background-color: #ffffff;
+    color: ^#D6001C;
     text-align: center;
     text-decoration: none;
     opacity: 90%;
