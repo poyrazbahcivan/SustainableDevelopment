@@ -20,8 +20,8 @@ body {
     z-index: 999;
     height: 70px;
 
-    background-color: GhostWhite;
-    color: GhostWhite;
+    background-color: WhiteSmoke;
+    color: WhiteSmoke;
     text-align: center;
     text-decoration: none;
     opacity: 90%;
@@ -67,8 +67,8 @@ body {
     height: 60px;
     z-index: 999;
     opacity: 100%;
-    background-color: GhostWhite;
-    color: GhostWhite;
+    background-color: WhiteSmoke;
+    color: WhiteSmoke;
     text-align: center;
     text-decoration: none;
 }
