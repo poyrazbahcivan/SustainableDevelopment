@@ -197,14 +197,14 @@ body {
 .countriesBox .region .asia1 .country .flag_img img {
     border: 3px solid #000000;
     border-radius: 10px;
-    border-color: ForestGreen;
+    border-color: WhiteSmoke;
     height: 170px;
     width: 260px;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
     border: 3px solid #000000;
     border-radius: 10px;
-    border-color: ForestGreen;
+    border-color: WhiteSmoke;
     height: 170px;
 }
 .countriesBox #t11 {
@@ -250,8 +250,8 @@ body {
 }
 .column .head {
     position: relative;
-    color: FireBrick;
-    background-color: WhiteSmoke;
+    color: Crimson;
+    background-color: Gainsboro;
     width: 204px;
     text-transform: uppercase;
     padding-block: 14px;
@@ -278,7 +278,7 @@ body {
     width: 5px;
 }
 .column .scroll::-webkit-scrollbar-thumb {
-    background-color: blueviolet;
+    background-color: Crimson;
     border-radius: 6px;
 }
 .column button:hover {
@@ -329,8 +329,8 @@ body {
     padding-inline: 20px;
     width: 400px;
     height: auto;
-    color: white;
-    background-color: rgb(161, 74, 243);
+    color: Crimson;
+    background-color: rgb(248, 248, 255);
     text-transform: uppercase;
 }
 .left .part_of_goals .subtitles {
@@ -421,7 +421,7 @@ body {
     width: 5px;
 }
 .list_scroll .scroll::-webkit-scrollbar-thumb {
-    background-color: blueviolet;
+    background-color: Crimson;
     border-radius: 6px;
 }
 .list_scroll button:hover {
@@ -444,8 +444,8 @@ body {
 }
 .list_container .list_list .head {
     position: relative;
-    color: white;
-    background-color: blueviolet;
+    color: Crimson;
+    background-color: GhostWhite;
     width: 1000px;
     text-transform: uppercase;
     padding-block: 14px;
@@ -465,7 +465,7 @@ body {
     width: 5px;
 }
 .list_but_scroll::-webkit-scrollbar-thumb {
-    background-color: blueviolet;
+    background-color: Crimson;
     border-radius: 6px;
 }
 #subtitles_of_list_of_list {
