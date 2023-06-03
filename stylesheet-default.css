@@ -174,7 +174,7 @@ body {
 }
 .yapistir {
     display: block;
-    background: Crimson;
+    background: FireBrick;
     padding: 14px 0;
     color: WhiteSmoke;
     text-transform: uppercase;
@@ -197,14 +197,14 @@ body {
 .countriesBox .region .asia1 .country .flag_img img {
     border: 3px solid #000000;
     border-radius: 10px;
-    border-color: WhiteSmoke;
+    border-color: ForestGreen;
     height: 170px;
     width: 260px;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
     border: 3px solid #000000;
     border-radius: 10px;
-    border-color: WhiteSmoke;
+    border-color: ForestGreen;
     height: 170px;
 }
 .countriesBox #t11 {
