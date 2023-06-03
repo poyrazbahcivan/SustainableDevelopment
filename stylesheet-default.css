@@ -197,14 +197,14 @@ body {
 .countriesBox .region .asia1 .country .flag_img img {
     border: 3px solid #000000;
     border-radius: 10px;
-    border-color: black;
+    border-color: WhiteSmoke;
     height: 170px;
     width: 260px;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
     border: 3px solid #000000;
     border-radius: 10px;
-    border-color: black;
+    border-color: WhiteSmoke;
     height: 170px;
 }
 .countriesBox #t11 {
@@ -212,7 +212,7 @@ body {
     margin-bottom: 60px;
 }
 .countriesBox .region .asia1 .country button {
-    background: Crimson;
+    background: FireBrick;
     padding: 14px 0;
     color: WhiteSmoke;
     text-transform: uppercase;
@@ -250,8 +250,8 @@ body {
 }
 .column .head {
     position: relative;
-    color: WhiteSmoke;
-    background-color: Crimson;
+    color: FireBrick;
+    background-color: WhiteSmoke;
     width: 204px;
     text-transform: uppercase;
     padding-block: 14px;
