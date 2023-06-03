@@ -187,7 +187,7 @@ body {
 }
 
 .yapistir:hover{
-    background-color: rgb(150, 63, 231);
+    background-color: rgb(220, 20, 60);
 }
 
 .countriesBox {
@@ -212,9 +212,9 @@ body {
     margin-bottom: 60px;
 }
 .countriesBox .region .asia1 .country button {
-    background: blueviolet;
+    background: Crimson;
     padding: 14px 0;
-    color: white;
+    color: WhiteSmoke;
     text-transform: uppercase;
     cursor: pointer;
     margin: 17px;
@@ -250,8 +250,8 @@ body {
 }
 .column .head {
     position: relative;
-    color: white;
-    background-color: blueviolet;
+    color: WhiteSmoke;
+    background-color: Crimson;
     width: 204px;
     text-transform: uppercase;
     padding-block: 14px;
