@@ -495,10 +495,7 @@ body {
 }
 
 @media only screen and (max-width: 1000px){
-    #navigation{
-        visibility: hidden;
-    }
-    #logo-name{
-        font-size: 80%;
+    .about-box{
+        
     }
 }
