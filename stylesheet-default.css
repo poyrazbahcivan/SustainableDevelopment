@@ -251,8 +251,8 @@ body {
 }
 .column .head {
     position: relative;
-    color: WhiteSmoke;
-    background-color: Crimson;
+    color: Crimson;
+    background-color: WhiteSmoke;
     width: 204px;
     text-transform: uppercase;
     padding-block: 14px;
@@ -330,8 +330,8 @@ body {
     padding-inline: 20px;
     width: 400px;
     height: auto;
-    color: Crimson;
-    background-color: rgb(245, 245, 245);
+    color: WhiteSmoke;
+    background-color: rgb(220, 20, 60);
     text-transform: uppercase;
 }
 .left .part_of_goals .subtitles {
