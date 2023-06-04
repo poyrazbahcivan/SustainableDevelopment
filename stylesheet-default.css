@@ -341,14 +341,14 @@ body {
 }
 .left .part_of_goals .subtitles .subtitle_name {
     position: relative;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-top: none;
     border-radius: 0;
     padding-block: 14px;
     width: 217px;
 }
 .left .part_of_goals .subtitles .subtitle_value {
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-top: none;
     border-radius: 0;
     margin-left: -2px;
@@ -356,7 +356,7 @@ body {
     width: 217px;
 }
 .left .part_of_goals .subtitles .subtitle_value_last {
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-top: none;
     border-radius: 0;
     margin-left: -2px;
@@ -364,7 +364,7 @@ body {
     width: 217px;
 }
 .left .part_of_goals .subtitles .subtitle_name_last {
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-top: none;
     border-radius: 0;
     padding-block: 14px;
