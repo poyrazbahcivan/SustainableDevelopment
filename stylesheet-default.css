@@ -174,7 +174,7 @@ body {
 }
 .yapistir {
     display: block;
-    background: FireBrick;
+    background: Crimson;
     padding: 14px 0;
     color: WhiteSmoke;
     text-transform: uppercase;
@@ -212,7 +212,7 @@ body {
     margin-bottom: 60px;
 }
 .countriesBox .region .asia1 .country button {
-    background: FireBrick;
+    background: Crimson;
     padding: 14px 0;
     color: WhiteSmoke;
     text-transform: uppercase;
