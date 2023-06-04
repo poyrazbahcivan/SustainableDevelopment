@@ -487,8 +487,8 @@ body {
     position: relative;
     padding: 14px;
     margin-top: -2px;
-    border-top: 1px solid #000000;
-    border-right: 1px solid #000000;
+    border-top: 2px solid #000000;
+    border-right: 2px solid #000000;
 }
 #subtitles_of_list_of_list2 .the_last_airbender, #subtitles_of_list_of_list2 .the_last_waterbender {
     border-right: none;
