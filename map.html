@@ -32,9 +32,10 @@
             onRegionLabelShow: function(event, label, code) {
                 $(label).append($("<br/>"));
                 $(label).append($("<span/>", {
-                    'class': 'Overall_Score',
-                    'html': AF: '52.49',
+                    'class': 'population',
+                    'html': 'Populație: ' + parseInt(Math.random() * (1000000 - 1000) + 1000)
                 }));
+            }
             zoomButtons: false,
              visualizeData: {
                  scale: ['#E41010', '#3DE40C'],
