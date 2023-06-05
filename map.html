@@ -29,13 +29,6 @@
             selector: "#map",
             map: "world_merc",
             showTooltip: true,
-            onRegionLabelShow: function(event, label, code) {
-                $(label).append($("<br/>"));
-                $(label).append($("<span/>", {
-                    'class': 'population',
-                    'html': 'Populație: ' + parseInt(Math.random() * (1000000 - 1000) + 1000)
-                }));
-            }
             zoomButtons: false,
              visualizeData: {
                  scale: ['#E41010', '#3DE40C'],
