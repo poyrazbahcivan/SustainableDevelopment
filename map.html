@@ -201,20 +201,6 @@
                     stroke: "#313131",
                     strokeWidth: 0.4,
                     fillOpacity: 1
-                    $(function(){
-                        $('#world-map-gdp').vectorMap({
-                            map: 'world_merc',
-                            series: {
-                                regions: [{
-                                    values: gdpData,
-                                    normalizeFunction: 'polynomial'
-                                   }]
-                                },
-                            onRegionTipShow: function(e, el, code){
-                                el.html(el.html()+' (GDP - '+gdpData[code]+')');
-                             }
-                        });
-                },
             },
             onRegionClick:function(event, code){            
                       var name = (code);                          
