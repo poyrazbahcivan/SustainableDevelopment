@@ -38,8 +38,8 @@ body {
 
 #header #logo-name{
     float: left;
-    margin-top: 23px;
-    margin-left: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
     
 }
 
@@ -50,13 +50,13 @@ body {
 
 #navigation{
     float: right;
-    margin-top: 23px;
-    margin-right: 27px;
+    padding-top: 30px;
+    padding-right: 27px;
     
     
 }
 #navigation a{
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 
@@ -494,8 +494,81 @@ body {
     border-right: none;
 }
 
-@media only screen and (max-width: 1000px){
-    .about-box{
+/* Styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    /* CSS rules specific to smaller screens */
+    #navigation{
+        visibility: hidden;
+    }
+  }
+  
+  /* Styles for screens between 601px and 751px */
+  @media (min-width: 601px) and (max-width: 751px) {
+    /* CSS rules specific to medium-sized screens */
+    .header{
+        font-size: 65%;
+    }
+
+    #header #logo-name{
+        float: left;
+        padding-top: 29px;
+        padding-left: 20px;
         
     }
-}
+
+    #navigation{
+        float: right;
+        padding-top: 29px;
+        padding-right: 27px;
+        
+        
+    }
+  }
+
+  /* Styles for screens between 751px and 900px */
+  @media (min-width: 751px) and (max-width: 900px) {
+    /* CSS rules specific to medium-sized screens */
+    .header{
+        font-size: 75%;
+    }
+
+    #header #logo-name{
+        float: left;
+        padding-top: 29px;
+        padding-left: 20px;
+        
+    }
+
+    #navigation{
+        float: right;
+        padding-top: 29px;
+        padding-right: 27px;
+        
+        
+    }
+  }
+  
+  /* Styles for screens larger than 900px */
+  @media (min-width: 901px){
+    /* CSS rules specific to larger screens */
+    .header{
+        font-size: 90%;
+    }
+
+    #header #logo-name{
+        float: left;
+        padding-top: 29px;
+        padding-left: 20px;
+        
+    }
+
+    #navigation{
+        float: right;
+        padding-top: 29px;
+        padding-right: 27px;
+        
+        
+    }
+  }
+
+  
