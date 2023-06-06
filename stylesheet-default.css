@@ -508,25 +508,33 @@ html, body{
     #navigation{
         visibility: hidden;
     }
+
+    #header #logo-name{
+        float: left;
+        padding-top: 28px;
+        padding-left: 20px;
+        
+    }
   }
   
   /* Styles for screens between 601px and 751px */
   @media (min-width: 601px) and (max-width: 751px) {
     /* CSS rules specific to medium-sized screens */
+    
     .header{
         font-size: 65%;
     }
 
     #header #logo-name{
         float: left;
-        padding-top: 29px;
+        padding-top: 32px;
         padding-left: 20px;
         
     }
 
     #navigation{
         float: right;
-        padding-top: 29px;
+        padding-top: 32px;
         padding-right: 27px;
         
         
@@ -537,19 +545,19 @@ html, body{
   @media (min-width: 751px) and (max-width: 900px) {
     /* CSS rules specific to medium-sized screens */
     .header{
-        font-size: 75%;
+        font-size: 80%;
     }
 
     #header #logo-name{
         float: left;
-        padding-top: 29px;
+        padding-top: 30px;
         padding-left: 20px;
         
     }
 
     #navigation{
         float: right;
-        padding-top: 29px;
+        padding-top: 30px;
         padding-right: 27px;
         
         
@@ -565,14 +573,14 @@ html, body{
 
     #header #logo-name{
         float: left;
-        padding-top: 29px;
+        padding-top: 28px;
         padding-left: 20px;
         
     }
 
     #navigation{
         float: right;
-        padding-top: 29px;
+        padding-top: 28px;
         padding-right: 27px;
         
         
