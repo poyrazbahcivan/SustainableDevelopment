@@ -30,6 +30,16 @@
             map: "world_merc",
             showTooltip: true,
             zoomButtons: false,
+            series: {
+              regions: [{
+                values: gdpData,
+                scale: ['#C8EEFF', '#0071A4'],
+                normalizeFunction: 'polynomial'
+              }]
+            },
+            onRegionTipShow: function(e, el, code){
+              el.html(el.html()+' (GDP - '+gdpData[code]+')');
+            },
              visualizeData: {
                  scale: ['#E41010', '#3DE40C'],
                  values: {
