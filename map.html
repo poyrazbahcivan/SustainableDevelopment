@@ -37,9 +37,6 @@
                 normalizeFunction: 'polynomial'
               }]
             },
-            onRegionTipShow: function(e, el, code){
-              el.html(el.html()+' (GDP - '+gdpData[code]+')');
-            },
              visualizeData: {
                  scale: ['#E41010', '#3DE40C'],
                  values: {
@@ -217,7 +214,10 @@
                       var name = (code);                          
                       var code = code.toLowerCase();
                       window.open("countrydata.html#"+code,"_self");
-                      }
+                      },
+            onRegionTipShow: function(e, el, code){
+                      el.html(el.html()+' (GDP - '+gdpData[code]+')');
+                      },
                  });
     </script>
 </body>
