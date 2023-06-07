@@ -32,7 +32,6 @@
             zoomButtons: false,
             series: {
               regions: [{
-                values: gdpData,
                 scale: ['#C8EEFF', '#0071A4'],
                 normalizeFunction: 'polynomial'
               }]
@@ -216,7 +215,7 @@
                       window.open("countrydata.html#"+code,"_self");
                       },
             onRegionTipShow: function(e, el, code){
-                      el.html(el.html()+' (GDP - '+gdpData[code]+')');
+                      el.html(el.html()+' (GDP - '+')');
                       },
                  });
     </script>
