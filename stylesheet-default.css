@@ -204,14 +204,14 @@ html, body{
     text-align: center;
 }
 .countriesBox .region .asia1 .country .flag_img img {
-    border: 0px solid #000000;
+    border: 2px solid #000000;
     border-radius: 10px;
     border-color: Black;
     height: 170px;
     width: 260px;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
-    border: 0px solid #000000;
+    border: 2px solid #000000;
     border-radius: 10px;
     border-color: Black;
     height: 170px;
