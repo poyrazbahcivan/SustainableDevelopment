@@ -205,12 +205,14 @@ html, body{
 }
 .countriesBox .region .asia1 .country .flag_img img {
     display: inline-block;
-    padding: 0px;
+    padding: 5px;
     border: 2px solid black;
     width: fit-content;
+    min-width: 100px;
+    min-height: 60px;
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
