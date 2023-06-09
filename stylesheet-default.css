@@ -207,8 +207,11 @@ html, body{
     display: inline-block;
     padding: 0px;
     border: 2px solid black;
-    max-width: 100%;
+    width: fit-content;
     display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
     border: 2px solid #000000;
