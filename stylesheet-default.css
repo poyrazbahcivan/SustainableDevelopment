@@ -208,6 +208,8 @@ html, body{
     padding: 0px;
     border: 2px solid black;
     box-sizing: border-box;
+    height: 170px;
+    width: 340px;
     const countriesBox = document.querySelectorAll('.countriesBox');
     countriesBox.forEach(container => {
         const flagId = container.querySelector('svg').id;
