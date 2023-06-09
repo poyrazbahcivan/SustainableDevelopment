@@ -205,7 +205,7 @@ html, body{
 }
 .countriesBox .region .asia1 .country .flag_img img {
     display: inline-block;
-    padding: 5px;
+    padding: 0px;
     border: 2px solid black;
     box-sizing: border-box;
     const countriesBox = document.querySelectorAll('.countriesBox');
@@ -213,7 +213,7 @@ html, body{
         const flagId = container.querySelector('svg').id;
         const flag_img = document.getElementById(flagId);
         const { width, height } = flag_img.getBoundingClientRect();
-        const borderSize = Math.max(width, height) * 1;
+        const borderSize = Math.max(width, height) * 0.01;
         container.style.borderWidth = `${borderSize}px`;
        });
 }
