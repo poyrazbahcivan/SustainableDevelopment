@@ -208,9 +208,9 @@ html, body{
     padding: 0px;
     border: 2px solid black;
     width: fit-content;
-    min-width: 100px;
-    min-height: 60px;
-    height: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
     object-fit: contain;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
