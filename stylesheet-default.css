@@ -207,7 +207,6 @@ html, body{
     display: inline-block;
     padding: 2px;
     border: 2px solid black;
-    width: fit-content;
     min-height: 50px;
     width: 100%;
     height: auto;
