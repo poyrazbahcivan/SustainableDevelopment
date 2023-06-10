@@ -205,9 +205,10 @@ html, body{
 }
 .countriesBox .region .asia1 .country .flag_img img {
     display: inline-block;
-    padding: 0px;
+    padding: 2px;
     border: 2px solid black;
     width: fit-content;
+    min-height: 50px;
     width: 100%;
     height: auto;
     object-fit: contain;
