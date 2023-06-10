@@ -227,12 +227,12 @@ html, body{
     color: WhiteSmoke;
     text-transform: uppercase;
     cursor: pointer;
-    margin: 17px;
+    margin: 10px;
     margin-top: 8px;
-    width: 100%;
-    border-radius: 8px;
+    width: 50%;
+    border-radius: 4px;
     font-weight: 100;
-    font-size: 125%;
+    font-size: 100%;
 }
 .countriesBox .region .asia1 .country .naber {
     width: 80%;
