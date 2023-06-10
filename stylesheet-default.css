@@ -212,9 +212,10 @@ html, body{
     object-fit: contain;
 }
 .countriesBox .region .asia1 .country .flag_img_nepal img {
-    border: 2px solid Black;
+    border: 2px solid #000000;
     border-radius: 10px;
-    height: 140px;
+    border-color: black;
+    height: 170px;
 }
 .countriesBox #t11 {
     font-size: 48px;
