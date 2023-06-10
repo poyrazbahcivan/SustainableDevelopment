@@ -207,7 +207,7 @@ html, body{
     display: inline-block;
     padding: 0px;
     border: 2px solid black;
-    height: 140px;
+    height: 120px;
     width: auto;
     object-fit: contain;
 }
@@ -215,7 +215,7 @@ html, body{
     border: 2px solid #000000;
     border-radius: 10px;
     border-color: black;
-    height: 170px;
+    height: 120px;
 }
 .countriesBox #t11 {
     font-size: 48px;
