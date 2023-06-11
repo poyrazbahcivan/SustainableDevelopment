@@ -47,6 +47,7 @@ html, body{
 #header #logo-name{
     float: left;
     padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 120px;
     
 }
