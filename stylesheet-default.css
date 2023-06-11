@@ -50,6 +50,14 @@ html, body{
     
 }
 
+#header #logo2{
+    float: left;
+    margin-left: 140px;
+    margin-top: 4px;
+    height: 58px;
+    background: none;
+}
+
 #header a{
     text-align: center;
     color: Crimson;
