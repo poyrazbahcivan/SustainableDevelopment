@@ -3,8 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Times New Roman', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Times, Arial, sans-serif;    
 }
 
 body {
@@ -46,8 +45,7 @@ html, body{
 
 #header #logo-name{
     float: left;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 120px;
     
 }
