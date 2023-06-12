@@ -37,13 +37,13 @@ html, body{
 #header #sustainabledevelopment{
     float: left;
     padding-left: 150px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #header #hevseltimes{
     float: left;
     padding-left: 10px;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 #header a{
@@ -54,7 +54,7 @@ html, body{
 #navigation{
     float: right;
     padding-top: 30px;
-    padding-right: 27px;
+    padding-right: 100px;
     
 }
 #navigation a{
