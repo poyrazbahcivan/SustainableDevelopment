@@ -43,7 +43,7 @@ html, body{
 #header #hevseltimes{
     float: left;
     padding-left: 10px;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 #header a{
@@ -54,11 +54,11 @@ html, body{
 #navigation{
     float: right;
     padding-top: 30px;
-    padding-right: 100px;
+    padding-right: 75px;
     
 }
 #navigation a{
-    padding-left: 20px;
+    padding-left: 80px;
 }
 
 
