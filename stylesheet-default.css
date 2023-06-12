@@ -19,43 +19,40 @@ html, body{
     overflow-x: hidden; 
 }
 
-#header{
-    position: sticky;
-    top: 0;
-    right: 0; 
-    left: 0;
-    z-index: 999;
-    height: 70px;
-
-    background-color: WhiteSmoke;
-    color: Crimson;
-    text-align: center;
-    text-decoration: none;
-    opacity: 90%;
-
+#header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  height: 70px;
+  background-color: WhiteSmoke;
+  color: Crimson;
+  text-align: center;
+  text-decoration: none;
+  opacity: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#header #sustainabledevelopment{
-    float: left;
-    padding-left: 200px;
-    
+#header #sustainabledevelopment {
+  padding-left: 200px;
 }
 
-#header #hevseltimes{
-    float: left;
-    padding-left: 10px;
+#header #hevseltimes {
+  padding-left: 10px;
 }
 
-#header a{
-    text-align: center;
-    color: Crimson;
+#header a {
+  text-align: center;
+  color: Crimson;
 }
 
 #navigation{
     float: right;
     padding-top: 30px;
     padding-right: 27px;
-    
     
 }
 #navigation a{
