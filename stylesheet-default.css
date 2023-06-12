@@ -58,6 +58,8 @@ html, body{
     
 }
 #navigation a{
+    float: center;
+    padding-top: 27px;
     padding-left: 20px;
 }
 
