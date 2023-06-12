@@ -37,15 +37,13 @@ html, body{
 
 #header #sustainabledevelopment{
     float: left;
-    padding-bottom: 10px;
     padding-left: 200px;
     
 }
 
 #header #hevseltimes{
     float: left;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 #header a{
