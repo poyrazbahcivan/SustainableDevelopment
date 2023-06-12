@@ -35,27 +35,17 @@ html, body{
 
 }
 
-#header #logo{
-    float: left;
-    margin-left: 100px;
-    margin-top: 4px;
-    height: 58px;
-    background: none;
-}
-
-#header #logo-name{
+#header #sustainabledevelopment{
     float: left;
     padding-bottom: 20px;
-    padding-left: 120px;
+    padding-left: 200px;
     
 }
 
-#header #logo2{
+#header #hevseltimes{
     float: left;
-    margin-left: 20px;
-    margin-top: 4px;
-    height: 58px;
-    background: none;
+    padding-bottom: 20px;
+    padding-left: 240px;
 }
 
 #header a{
