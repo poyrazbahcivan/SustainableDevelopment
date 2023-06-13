@@ -62,9 +62,9 @@ html, body{
     margin-right: 20px;
 }
 
-#openButton {
-    float: left;
-    padding-left: 20px;
+#openbutton {
+    text-align: left;
+    margin-left: 20px;
     padding-top: 25px;
 }
 
