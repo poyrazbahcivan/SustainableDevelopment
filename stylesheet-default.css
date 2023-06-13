@@ -27,54 +27,47 @@ html, body{
     left: 0;
     z-index: 999;
     height: 70px;
-
     background-color: WhiteSmoke;
-    color: WhiteSmoke;
+    color: Crimson;
     text-align: center;
     text-decoration: none;
     opacity: 90%;
 
 }
 
-#header #logo{
-    float: left;
-    margin-left: 100px;
-    margin-top: 4px;
-    height: 58px;
-    background: none;
-}
-
-#header #logo-name{
-    float: left;
-    padding-bottom: 20px;
-    padding-left: 120px;
-    
-}
-
-#header #logo2{
-    float: left;
+#header #openbutton{
+    text-align: left;
     margin-left: 20px;
-    margin-top: 4px;
-    height: 58px;
-    background: none;
+    padding-top: 25px;
+}
+
+#header #sustainabledevelopment{
+    float: left;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+
+#header #hevseltimes{
+    float: left;
+    padding-left: 10px;
+    padding-top: 25px;
 }
 
 #header a{
-    text-align: center;
+    text-align: left;
     color: Crimson;
 }
 
-#navigation{
-    float: right;
-    padding-top: 30px;
-    padding-right: 27px;
-    
-    
-}
-#navigation a{
-    padding-left: 20px;
+#navigation {
+    text-align: right;
+    padding-top: 25px;
+    margin-right: 50px;
 }
 
+#navigation a {
+    padding-top: 25px;
+    margin-right: 20px;
+}
 
 #footer{
     position: bottom absolute;
