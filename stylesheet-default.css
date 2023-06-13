@@ -42,8 +42,8 @@ html, body{
 
 #header #hevseltimes{
     float: left;
-    padding-left: 10px;
     padding-top: 25px;
+    padding-left: 10px;
 }
 
 #header a{
@@ -54,12 +54,18 @@ html, body{
 #navigation {
     text-align: right;
     padding-top: 25px;
-    margin-right: 50px;
+    margin-right: 65px;
 }
 
 #navigation a {
     padding-top: 25px;
     margin-right: 20px;
+}
+
+#openButton {
+    float: left;
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 #footer{
