@@ -36,10 +36,9 @@ html, body{
 }
 
 #header #sustainabledevelopment {
-    float: left;
     color: Crimson;
     padding-left: 250px;
-    margin-top: 12px;
+    margin-top: 16px;
     font-family: 'Times New Roman';
     display: inline-block;
 }
@@ -59,7 +58,6 @@ html, body{
     font-size: 18px;
     align-items: center;
     color: Crimson;
-    margin-right: 200px;
     font-family: 'Times New Roman';
     display: inline-block;
 }
@@ -556,7 +554,7 @@ html, body{
 
     #navigation{
         float: right;
-        padding-top: 32px;
+        padding-top: 31px;
         padding-right: 27px;
         
         
@@ -579,7 +577,7 @@ html, body{
 
     #navigation{
         float: right;
-        padding-top: 30px;
+        padding-top: 29px;
         padding-right: 27px;
         
         
@@ -602,7 +600,7 @@ html, body{
 
     #navigation{
         float: right;
-        padding-top: 28px;
+        padding-top: 27px;
         padding-right: 27px;
         
         
