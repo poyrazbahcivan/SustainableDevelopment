@@ -41,10 +41,12 @@ html, body{
     padding-top: 7px;
     font-family: 'Times New Roman';
     display: inline-block;
+    font-size: 30px;
 }
 
 #header a{
     float: left;
+    font-size: 30px;
     color: Crimson;
     font-family: 'Times New Roman';
 }
