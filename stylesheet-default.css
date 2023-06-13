@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none; 
-    font-family: 'Times New Roman', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Times, Arial, sans-serif;    
+    font-family: 'Times New Roman', 'Barlow Medium', 'Barlow Light', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Times, Arial, sans-serif;    
     /*color: Crimson;*/
 }
 
@@ -43,14 +43,8 @@ html, body{
 
 #header #sustainabledevelopment{
     float: left;
-    padding-left: 80px;
-    padding-top: 15px;
-}
-
-#header #hevseltimes{
-    float: left;
-    padding-left: 10px;
-    padding-top: 25px;
+    padding-left: 100px;
+    padding-top: 10px;
 }
 
 #header a{
@@ -61,12 +55,12 @@ html, body{
 #navigation {
     text-align: right;
     padding-top: 25px;
-    margin-right: 50px;
+    margin-right: 150px;
 }
 
 #navigation a {
     padding-top: 25px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 #footer{
@@ -203,6 +197,7 @@ html, body{
 .countriesBox {
     margin-top: 60px;
     text-align: center;
+    font-family: 'Barlow Light';
 }
 .region{
     display: flex;
@@ -259,10 +254,13 @@ html, body{
     margin: 50px;
 }
 .main {
-    margin-top: 30px;
+    margin-bottom: 1000px;
+    margin-top: 20px;
 }
 .column {
-    float: right;
+    position: relative;
+    left: 50%;
+    transform: translate(225%,0);
     width: 200px;
     box-shadow: -6px 5px 18px rgba(0, 0, 0, 0.8);
 }
@@ -304,16 +302,24 @@ html, body{
     width: 200px;
 }
 .left {
+    position: absolute;
+    width: 82%;
+    box-sizing: border-box;
 }
 .left .datapage_flag {
-    height: 300px;
-    width: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 600px;
+    height: 350px;
     margin-bottom: 25px;
     border: 1px solid #000000;
     border-radius: 0;
     box-shadow: -6px 6px 18px rgba(0, 0, 0, 0.8);
 }
 .left .tables_of_data {
+    position: relative;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -391,6 +397,7 @@ html, body{
     max-width: 1000px;
     text-align: center;
     justify-content: center;
+    font-family: 'Barlow Medium', Arial, sans-serif;
 }
 .list_scroll {
     position: relative;
