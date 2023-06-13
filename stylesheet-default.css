@@ -52,14 +52,14 @@ html, body{
 }
 
 #navigation {
-    text-align: center;
-    padding-top: 27px;
-    padding-right: 50px;
+    text-align: right;
+    padding-top: 25px;
+    margin-right: 50px;
 }
 
 #navigation a {
-    padding-top: 27px;
-    padding-left: 50px;
+    padding-top: 25px;
+    margin-right: 50px;
 }
 
 #footer{
