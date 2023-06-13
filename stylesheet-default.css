@@ -41,7 +41,16 @@ html, body{
     padding-top: 5px;
     font-family: 'Times New Roman';
     display: inline-block;
-    font-size: 24px;
+    font-size: 22px;
+}
+
+#header #hevseltimes{
+    float: left;
+    padding-left: 250px;
+    padding-top: 1px;
+    font-family: 'Times New Roman';
+    display: inline-block;
+    font-size: 15px;
 }
 
 #header a{
