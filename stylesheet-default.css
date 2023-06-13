@@ -61,7 +61,6 @@ html, body{
 #navigation {
     text-align: right;
     padding-top: 25px;
-    margin-right: 50px;
 }
 
 #navigation a {
@@ -304,6 +303,7 @@ html, body{
     width: 200px;
 }
 .left {
+    
 }
 .left .datapage_flag {
     height: 300px;
