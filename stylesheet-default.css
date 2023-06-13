@@ -35,17 +35,10 @@ html, body{
     font-family: 'Times New Roman';
 }
 
-#header #openbutton{
-    text-align: left;
-    margin-left: 20px;
-    padding-top: 25px;
-    font-family: 'Times New Roman';
-}
-
 #header #sustainabledevelopment{
     text-align: left;
-    margin-left: 100px;
-    margin-top: 10px;
+    margin-left: 120px;
+    margin-top: 13px;
     font-family: 'Times New Roman';
 }
 
@@ -57,7 +50,7 @@ html, body{
 
 #navigation {
     text-align: right;
-    font-size: 24px;
+    font-size: 16px;
     padding-top: 25px;
     margin-right: 150px;
     font-family: 'Times New Roman';
@@ -245,6 +238,7 @@ html, body{
     border-radius: 4px;
     font-weight: 100;
     font-size: 100%;
+    font-family: 'Barlow Light';
 }
 .countriesBox .region .asia1 .country .naber {
     width: 80%;
