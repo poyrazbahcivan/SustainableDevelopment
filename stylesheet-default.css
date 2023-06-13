@@ -46,8 +46,8 @@ html, body{
 
 #header #hevseltimes{
     float: left;
-    padding-left: 250px;
-    padding-top: 35px;
+    padding-left: 0px;
+    padding-top: 40px;
     font-family: 'Times New Roman';
     display: inline-block;
     font-size: 15px;
