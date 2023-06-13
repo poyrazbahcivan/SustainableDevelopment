@@ -36,8 +36,9 @@ html, body{
 }
 
 #header #sustainabledevelopment {
+    float: left;
     color: Crimson;
-    padding-left: 250px;
+    padding-left: 150px;
     margin-top: 16px;
     font-family: 'Times New Roman';
     display: inline-block;
@@ -54,6 +55,7 @@ html, body{
 }
 
 #navigation {
+    margin-right: 100px;
     text-align: right;
     font-size: 18px;
     align-items: center;
