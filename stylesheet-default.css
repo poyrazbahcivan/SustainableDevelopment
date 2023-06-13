@@ -35,24 +35,13 @@ html, body{
     font-family: 'Times New Roman';
 }
 
-#header #sustainabledevelopment :first-child {
+#header #sustainabledevelopment {
     float: left;
     color: Crimson;
     padding-left: 250px;
     padding-top: 5px;
     font-family: 'Times New Roman';
     display: inline-block;
-    font-size: 23px;
-}
-
-#header #sustainabledevelopment :last-child {
-    float: left;
-    color: Crimson;
-    padding-left: 0px;
-    padding-top: 30px;
-    font-family: 'Times New Roman';
-    display: inline-block;
-    font-size: 15px;
 }
 
 #header #sustainabledevelopment a:first-child {
