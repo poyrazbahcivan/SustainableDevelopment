@@ -42,7 +42,7 @@ html, body{
 
 #header #sustainabledevelopment{
     float: left;
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top: 15px;
 }
 
@@ -60,7 +60,7 @@ html, body{
 #navigation {
     text-align: right;
     padding-top: 25px;
-    margin-right: 65px;
+    margin-right: 50px;
 }
 
 #navigation a {
