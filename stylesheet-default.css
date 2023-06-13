@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none; 
-    font-family: 'Times New Roman', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Times, Arial, sans-serif;    
+    font-family: 'Barlow Medium', 'Barlow Light', 'Times New Roman', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Times, Arial, sans-serif;    
     /*color: Crimson;*/
 }
 
@@ -32,40 +32,56 @@ html, body{
     text-align: center;
     text-decoration: none;
     opacity: 90%;
-
+    font-family: 'Times New Roman';
 }
 
-#header #openbutton{
-    text-align: left;
-    margin-left: 20px;
-    padding-top: 25px;
-}
-
-#header #sustainabledevelopment{
+#header #sustainabledevelopment {
     float: left;
-    padding-left: 80px;
-    padding-top: 15px;
-}
-
-#header #hevseltimes{
-    float: left;
-    padding-left: 10px;
-    padding-top: 25px;
-}
-
-#header a{
-    text-align: left;
     color: Crimson;
+    padding-left: 250px;
+    padding-top: 5px;
+    font-family: 'Times New Roman';
+    display: inline-block;
+}
+
+#header #sustainabledevelopment a:first-child {
+    float: left;
+    color: Crimson;
+    padding-left: 250px;
+    padding-top: 5px;
+    font-family: 'Times New Roman';
+    display: inline-block;
+    font-size: 23px;
+}
+
+#header #sustainabledevelopment a:last-child {
+    float: left;
+    color: Crimson;
+    padding-left: 0px;
+    padding-top: 30px;
+    font-family: 'Times New Roman';
+    display: inline-block;
+    font-size: 15px;
 }
 
 #navigation {
     text-align: right;
     padding-top: 25px;
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: Crimson;
+    margin-right: 200px;
+    font-family: 'Times New Roman';
+    display: inline-block;
 }
 
 #navigation a {
-    padding-top: 25px;
-    margin-right: 20px;
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: Crimson;
+    margin-right: 30px;
+    font-family: 'Times New Roman';
+    display: inline-block;
 }
 
 #footer{
@@ -79,12 +95,14 @@ html, body{
     color: Crimson;
     text-align: center;
     text-decoration-color: Crimson;
+    font-family: 'Times New Roman';
 }
 
 #credit{
     margin-top: 23px;
     margin-left: 17px;
     font-size: 13px;
+    font-family: 'Times New Roman';
 }
 
 
@@ -202,6 +220,7 @@ html, body{
 .countriesBox {
     margin-top: 60px;
     text-align: center;
+    font-family: 'Barlow Light';
 }
 .region{
     display: flex;
@@ -240,6 +259,7 @@ html, body{
     border-radius: 4px;
     font-weight: 100;
     font-size: 100%;
+    font-family: 'Barlow Light';
 }
 .countriesBox .region .asia1 .country .naber {
     width: 80%;
@@ -262,7 +282,7 @@ html, body{
     display: flex;
     flex-wrap: wrap;
 }
-.column {
+
     width: 200px;
     box-shadow: -6px 5px 18px rgba(0, 0, 0, 0.8);
     display: block;
@@ -311,12 +331,15 @@ html, body{
 .left .datapage_flag {
     height: 30vh;
     width: auto;
+
     margin-bottom: 25px;
     border: 1px solid #000000;
     border-radius: 0;
     box-shadow: -6px 6px 18px rgba(0, 0, 0, 0.8);
 }
 .left .tables_of_data {
+    position: relative;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
