@@ -204,9 +204,12 @@ html, body{
     margin-top: 60px;
     text-align: center;
 }
-.asia1{
+.region{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+}
+.asia1{
+    flex: 1 0 33%;
 }
 .countriesBox .region .asia1 .country .flag_img img {
     display: inline-block;
@@ -247,10 +250,13 @@ html, body{
     display: flex;
     width: auto;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.countriesBox .region .asia1 .country {
+
+.country{
     width: 230px;
-    margin: 60px;
+    height: 230px;
+    margin: 50px;
 }
 .main {
     margin-bottom: 1000px;
@@ -598,24 +604,3 @@ html, body{
         
     }
   }
-
-  @media (min-width: 1000px) and (max-width: 1080px){
-    .region{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .asia1{
-        flex: 50%;
-    }
-  }
-  @media (max-width: 1000px){
-    .region{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .asia1{
-        flex: 20%;
-    }
-  }
-
-  
