@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none; 
     font-family: 'Times New Roman', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Times, Arial, sans-serif;    
+    /*color: Crimson;*/
 }
 
 body {
@@ -508,6 +509,12 @@ html, body{
 }
 #subtitles_of_list_of_list2 .the_last_airbender, #subtitles_of_list_of_list2 .the_last_waterbender {
     border-right: none;
+}
+
+.menu-icon{
+    visibility: hidden;
+    height: 45px;
+    padding-top: 28px;
 }
 
 /* Styles for screens smaller than 600px */
