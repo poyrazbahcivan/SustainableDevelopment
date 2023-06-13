@@ -36,23 +36,23 @@ html, body{
 }
 
 #header #sustainabledevelopment{
-    text-align: left;
-    padding-left: 120px;
-    padding-top: 8px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 2px;
     font-family: 'Times New Roman';
-    display: inline;
+    display: inline-block;
 }
 
 #header #hevseltimes{
-    text-align: left;
-    padding-left: 120px;
+    float: left;
+    padding-left: 20px;
     padding-top: 3px;
     font-family: 'Times New Roman';
-    display: inline;
+    display: inline-block;
 }
 
 #header a{
-    text-align: left;
+    float: left;
     color: Crimson;
     font-family: 'Times New Roman';
 }
