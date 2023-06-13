@@ -259,13 +259,10 @@ html, body{
     margin: 50px;
 }
 .main {
-    margin-bottom: 1000px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .column {
-    position: relative;
-    left: 50%;
-    transform: translate(225%,0);
+    float: right;
     width: 200px;
     box-shadow: -6px 5px 18px rgba(0, 0, 0, 0.8);
 }
@@ -307,24 +304,16 @@ html, body{
     width: 200px;
 }
 .left {
-    position: absolute;
-    width: 82%;
-    box-sizing: border-box;
 }
 .left .datapage_flag {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 600px;
-    height: 350px;
+    height: 300px;
+    width: auto;
     margin-bottom: 25px;
     border: 1px solid #000000;
     border-radius: 0;
     box-shadow: -6px 6px 18px rgba(0, 0, 0, 0.8);
 }
 .left .tables_of_data {
-    position: relative;
-    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
