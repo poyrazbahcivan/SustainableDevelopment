@@ -204,6 +204,10 @@ html, body{
     margin-top: 60px;
     text-align: center;
 }
+.asia1{
+    display: flex;
+    flex-direction: row;
+}
 .countriesBox .region .asia1 .country .flag_img img {
     display: inline-block;
     padding: 0px;
@@ -592,6 +596,25 @@ html, body{
         padding-right: 27px;
         
         
+    }
+  }
+
+  @media (min-width: 1000px) and (max-width: 1080px){
+    .region{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .asia1{
+        flex: 50%;
+    }
+  }
+  @media (max-width: 1000px){
+    .region{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .asia1{
+        flex: 20%;
     }
   }
 
