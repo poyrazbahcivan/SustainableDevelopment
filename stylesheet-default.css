@@ -37,7 +37,7 @@ html, body{
 
 #header #sustainabledevelopment :first-child {
     float: left;
-    color: crimson;
+    color: Crimson;
     padding-left: 250px;
     padding-top: 5px;
     font-family: 'Times New Roman';
@@ -47,8 +47,8 @@ html, body{
 
 #header #sustainabledevelopment :last-child {
     float: left;
-    color: crimson;
-    padding-left: 250px;
+    color: Crimson;
+    padding-left: 0px;
     padding-top: 5px;
     font-family: 'Times New Roman';
     display: inline-block;
@@ -57,7 +57,7 @@ html, body{
 
 #header #sustainabledevelopment a:first-child {
     float: left;
-    color: crimson;
+    color: Crimson;
     padding-left: 250px;
     padding-top: 5px;
     font-family: 'Times New Roman';
@@ -67,8 +67,8 @@ html, body{
 
 #header #sustainabledevelopment a:last-child {
     float: left;
-    color: crimson;
-    padding-left: 250px;
+    color: Crimson;
+    padding-left: 0px;
     padding-top: 5px;
     font-family: 'Times New Roman';
     display: inline-block;
@@ -79,6 +79,7 @@ html, body{
     text-align: right;
     font-size: 20px;
     padding-bottom: 40px;
+    color: Crimson;
     margin-right: 200px;
     font-family: 'Times New Roman';
     display: inline-block;
@@ -87,6 +88,7 @@ html, body{
 #navigation a {
     font-size: 20px;
     padding-bottom: 40px;
+    color: Crimson;
     margin-right: 30px;
     font-family: 'Times New Roman';
     display: inline-block;
