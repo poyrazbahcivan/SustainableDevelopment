@@ -280,6 +280,16 @@ html, body{
     height: 230px;
     margin: 50px;
 }
+
+.hevseltimesbackground img {
+    display: inline-block;
+    padding: 0px;
+    border: 0px solid black;
+    height: 432px;
+    width: 1349px;
+    object-fit: contain;
+}
+
 .main {
     margin-top: 30px;
     display: flex;
