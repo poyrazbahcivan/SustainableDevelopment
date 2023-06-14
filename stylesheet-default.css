@@ -426,22 +426,30 @@ html, body{
 }
 
 .aboutustitle {
-    left: 50%;
-    transform: translate(-50%,0);
     justify-content: center;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: 50px;
     z-index: 1;
 }
 
 .aboutustitle h1 {
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    z-index: 1;
     font-size: 30px;
     color: Crimson;
     font-family: 'Barlow Medium';
 }
 
 .aboutustitle p {
+    justify-content: center;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    z-index: 1;
     font-size: 16px;
     color: Crimson;
     font-family: 'Barlow Light';
