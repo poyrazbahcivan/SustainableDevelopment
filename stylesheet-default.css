@@ -427,16 +427,18 @@ html, body{
 
 .aboutustitle {
     justify-content: center;
-    position: absolute;
-    top: 100px;
+    position: relative;
+    top: 70px;
+    padding-right: 30px;
     left: 50px;
     z-index: 1;
 }
 
 .aboutustitle h1 {
     justify-content: center;
-    position: absolute;
-    top: 100px;
+    position: relative;
+    top: 70px;
+    padding-right: 30px;
     left: 50px;
     z-index: 1;
     font-size: 30px;
@@ -446,8 +448,9 @@ html, body{
 
 .aboutustitle p {
     justify-content: center;
-    position: absolute;
-    top: 140px;
+    position: relative;
+    top: 100px;
+    padding-right: 30px;
     left: 50px;
     z-index: 1;
     font-size: 16px;
