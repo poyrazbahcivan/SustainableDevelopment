@@ -283,6 +283,7 @@ html, body{
 
 .hevseltimesbackground img {
     display: inline-block;
+    position: relative;
     padding: 0px;
     border: 0px solid black;
     height: 432px;
@@ -423,6 +424,30 @@ html, body{
     max-height: 100%;
     margin-bottom: 20px;
 }
+
+.aboutustitle {
+    left: 50%;
+    transform: translate(-50%,0);
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.aboutustitle h1 {
+    font-size: 30px;
+    color: Crimson;
+    font-family: 'Barlow Medium';
+}
+
+.aboutustitle p {
+    font-size: 16px;
+    color: Crimson;
+    font-family: 'Barlow Light';
+}
+
+
 .aboutusstuff {
     position: relative;
     left: 50%;
