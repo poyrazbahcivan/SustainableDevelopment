@@ -428,18 +428,16 @@ html, body{
 
 .aboutustitle {
     justify-content: center;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position: fixed;
     padding-right: 30px;
     z-index: 1;
 }
 
 .aboutustitle h1 {
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: 70px;
     left: 50px;
-    transform: translate(-50%, -50%);
     padding-right: 30px;
     z-index: 1;    
     font-size: 30px;
@@ -449,10 +447,9 @@ html, body{
 
 .aboutustitle p {
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: 100px;
     left: 50px;
-    transform: translate(-50%, -50%);
     padding-right: 30px;
     z-index: 1;
     font-size: 16px;
