@@ -427,20 +427,22 @@ html, body{
 
 .aboutustitle {
     justify-content: center;
-    position: relative;
-    top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding-right: 30px;
-    left: 50px;
     z-index: 1;
 }
 
 .aboutustitle h1 {
     justify-content: center;
-    position: relative;
-    top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding-right: 30px;
-    left: 50px;
-    z-index: 1;
+    z-index: 1;    
     font-size: 30px;
     color: Crimson;
     font-family: 'Barlow Medium';
@@ -448,10 +450,11 @@ html, body{
 
 .aboutustitle p {
     justify-content: center;
-    position: relative;
-    top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding-right: 30px;
-    left: 50px;
     z-index: 1;
     font-size: 16px;
     color: Crimson;
