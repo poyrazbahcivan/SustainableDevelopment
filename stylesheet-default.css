@@ -83,7 +83,21 @@ html, body{
     background-color: WhiteSmoke;
     color: Crimson;
     text-align: center;
-    text-decoration-color: Crimson;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+
+#footer a {
+    position: bottom absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    opacity: 100%;
+    background-color: WhiteSmoke;
+    color: Crimson;
+    text-align: center;
+    text-decoration: none;
     font-family: 'Times New Roman';
 }
 
