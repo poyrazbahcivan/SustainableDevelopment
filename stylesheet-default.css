@@ -163,6 +163,29 @@ html, body{
     text-align: center;
     margin: 40px;
 }
+
+.baban .ourTeam5 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.baban .ourTeam5 .team_member {
+    width: 40px;
+    text-align: center;
+    margin: 40px;
+}
+
+.baban .ourTeam4 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.baban .ourTeam4 .team_member {
+    width: 40px;
+    text-align: center;
+    margin: 40px;
+}
+
 .ububjub {
     border: 1px solid Black;
     margin: 40px 20%;
