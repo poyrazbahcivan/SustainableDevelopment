@@ -149,8 +149,9 @@ html, body{
     justify-content: center;
 }
 .baban .ourTeam2 .team_member {
-    width: 230px;
-    margin: 60px;
+    width: 40px;
+    text-align: center;
+    margin: 40px;
 }
 .baban .ourTeam3 {
     display: flex;
@@ -158,8 +159,9 @@ html, body{
     justify-content: center;
 }
 .baban .ourTeam3 .team_member {
-    width: 230px;
-    margin: 60px;
+    width: 40px;
+    text-align: center;
+    margin: 40px;
 }
 .ububjub {
     border: 1px solid Black;
