@@ -448,31 +448,35 @@ html, body{
 }
 
 .aboutustitle {
-    justify-content: center;
-    position: fixed;
-    padding-right: 30px;
-    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center; 
+    color: Crimson;
+    font-family: 'Barlow Medium';
 }
 
 .aboutustitle h1 {
-    justify-content: center;
-    position: fixed;
-    top: 70px;
-    left: 50px;
-    padding-right: 30px;
-    z-index: 1;    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center; 
     font-size: 30px;
     color: Crimson;
     font-family: 'Barlow Medium';
 }
 
 .aboutustitle p {
-    justify-content: center;
-    position: fixed;
-    top: 100px;
-    left: 50px;
-    padding-right: 30px;
-    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center; 
     font-size: 16px;
     color: Crimson;
     font-family: 'Barlow Light';
