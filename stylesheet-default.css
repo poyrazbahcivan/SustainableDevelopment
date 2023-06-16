@@ -59,6 +59,7 @@ html, body{
     text-align: right;
     font-size: 18px;
     align-items: center;
+    padding-bottom: 30px;
     color: Crimson;
     font-family: 'Times New Roman';
     display: inline-block;
@@ -67,6 +68,7 @@ html, body{
 #navigation a {
     font-size: 18px;
     align-items: center;
+    padding-bottom: 30px;
     color: Crimson;
     margin-right: 40px;
     font-family: 'Times New Roman';
@@ -145,35 +147,39 @@ html, body{
 }
 .baban .ourTeam2 {
     display: flex;
+    justify-content: center;
 }
 .baban .ourTeam2 .team_member {
-    width: 100px;
+    width: 120px;
     text-align: center;
     margin: 50px;
 }
 .baban .ourTeam3 {
     display: flex;
+    justify-content: center;
 }
 .baban .ourTeam3 .team_member {
-    width: 100px;
+    width: 120px;
     text-align: center;
     margin: 50px;
 }
 
 .baban .ourTeam4 {
     display: flex;
+    justify-content: center;
 }
 .baban .ourTeam4 .team_member {
-    width: 100px;
+    width: 120px;
     text-align: center;
     margin: 50px;
 }
 
 .baban .ourTeam5 {
     display: flex;
+    justify-content: center;
 }
 .baban .ourTeam5 .team_member {
-    width: 100px;
+    width: 120px;
     text-align: center;
     margin: 50px;
 }
