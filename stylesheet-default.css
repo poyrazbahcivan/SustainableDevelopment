@@ -149,9 +149,9 @@ html, body{
     justify-content: center;
 }
 .baban .ourTeam2 .team_member {
-    width: 40px;
+    width: 80px;
     text-align: center;
-    margin: 40px;
+    margin: 50px;
 }
 .baban .ourTeam3 {
     display: flex;
@@ -159,20 +159,9 @@ html, body{
     justify-content: center;
 }
 .baban .ourTeam3 .team_member {
-    width: 40px;
+    width: 80px;
     text-align: center;
-    margin: 40px;
-}
-
-.baban .ourTeam5 {
-    display: flex;
-    width: auto;
-    justify-content: center;
-}
-.baban .ourTeam5 .team_member {
-    width: 40px;
-    text-align: center;
-    margin: 40px;
+    margin: 50px;
 }
 
 .baban .ourTeam4 {
@@ -181,9 +170,20 @@ html, body{
     justify-content: center;
 }
 .baban .ourTeam4 .team_member {
-    width: 40px;
+    width: 80px;
     text-align: center;
-    margin: 40px;
+    margin: 50px;
+}
+
+.baban .ourTeam5 {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.baban .ourTeam5 .team_member {
+    width: 80px;
+    text-align: center;
+    margin: 50px;
 }
 
 .ububjub {
