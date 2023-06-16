@@ -64,21 +64,11 @@ html, body{
     display: inline-block;
 }
 
-#navigation a:first-child {
+#navigation a {
     font-size: 18px;
     align-items: center;
     color: Crimson;
     margin-right: 40px;
-    font-family: 'Times New Roman';
-    display: inline-block;
-}
-
-#navigation a:last-child {
-    font-size: 18px;
-    align-items: center;
-    color: Crimson;
-    margin-right: 40px;
-    border: 2px solid Crimson;
     font-family: 'Times New Roman';
     display: inline-block;
 }
