@@ -303,14 +303,8 @@ html, body{
 }
 
 .hevseltimesbackground img {
-    display: inline-block;
     position: relative;
-    padding: 0px;
-    border: 0px solid black;
-    height: 432px;
-    width: 1349px;
-    object-fit: contain;
-    overflow: hidden;
+    display: inline-block;
 }
 
 .main {
@@ -452,10 +446,11 @@ html, body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
-    text-align: center; 
-    color: Crimson;
-    font-family: 'Barlow Medium';
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
 }
 
 .aboutustitle h1 {
@@ -463,11 +458,11 @@ html, body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
-    text-align: center; 
-    font-size: 30px;
     color: Crimson;
+    font-size: 30px;
     font-family: 'Barlow Medium';
+    text-align: center;
+    z-index: 1;
 }
 
 .aboutustitle p {
@@ -475,11 +470,11 @@ html, body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 20px;
-    text-align: center; 
-    font-size: 16px;
     color: Crimson;
+    font-size: 16px;
     font-family: 'Barlow Light';
+    text-align: center;
+    z-index: 1;
 }
 
 .aboutusstuff {
