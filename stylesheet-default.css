@@ -145,43 +145,35 @@ html, body{
 }
 .baban .ourTeam2 {
     display: flex;
-    width: auto;
-    justify-content: center;
 }
 .baban .ourTeam2 .team_member {
-    width: 80px;
+    width: 100px;
     text-align: center;
     margin: 50px;
 }
 .baban .ourTeam3 {
     display: flex;
-    width: auto;
-    justify-content: center;
 }
 .baban .ourTeam3 .team_member {
-    width: 80px;
+    width: 100px;
     text-align: center;
     margin: 50px;
 }
 
 .baban .ourTeam4 {
     display: flex;
-    width: auto;
-    justify-content: center;
 }
 .baban .ourTeam4 .team_member {
-    width: 80px;
+    width: 100px;
     text-align: center;
     margin: 50px;
 }
 
 .baban .ourTeam5 {
     display: flex;
-    width: auto;
-    justify-content: center;
 }
 .baban .ourTeam5 .team_member {
-    width: 80px;
+    width: 100px;
     text-align: center;
     margin: 50px;
 }
