@@ -308,14 +308,23 @@ html, body{
     display: inline-block;
 }
 
-.hevseltimesbackground::after {
-  content: "About Us";
+.hevseltimesbackground::before {
+  content: "Hevsel Times";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 24px;
-  color: Crimson;
+  top: 20%;
+  left: 20%;
+  font-size: 30px;
+  color: White;
+  padding: 10px;
+}
+
+.hevseltimesbackground::after {
+  content: "Hevsel Times fosters a community of young scientists who share passion for collaboration to create a sustainable impact in their communities.";
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 18px;
+  color: White;
   padding: 10px;
 }
 
