@@ -311,8 +311,8 @@ html, body{
 .hevseltimesbackground::before {
   content: "Hevsel Times";
   position: absolute;
-  top: 15%;
-  left: 15%;
+  top: 10%;
+  left: 10%;
   font-size: 40px;
   color: White;
   padding: 20px;
@@ -322,11 +322,11 @@ html, body{
   content: "Hevsel Times fosters a community of young scientists who share passion for collaboration to create a sustainable impact in their communities.";
   position: absolute;
   word-wrap: break-word;
-  top: 22%;
-  left: 15%;
-  font-size: 22px;
+  top: 20%;
+  left: 10%;
+  font-size: 20px;
   color: White;
-  padding: 20px;
+  padding: 10px;
 }
 
 .main {
