@@ -330,7 +330,7 @@ html, body{
   width: 30%;
 }
 
-.hevseltimesbackground::first-letter {
+.hevseltimesbackground::first {
   content: "About Us";
   position: absolute;
   word-wrap: break-word;
@@ -341,33 +341,33 @@ html, body{
   padding: 10px;
 }
 
-.hevseltimesbackground::first-line + br {
+.hevseltimesbackground::second {
   content: "Map";
   position: absolute;
   word-wrap: break-word;
-  top: 35%;
+  top: 38%;
   left: 15%;
   font-size: 10px;
   color: white;
   padding: 10px;
 }
 
-.hevseltimesbackground::first-line + br + br {
+.hevseltimesbackground::third {
   content: "Countries";
   position: absolute;
   word-wrap: break-word;
-  top: 35%;
+  top: 41%;
   left: 15%;
   font-size: 10px;
   color: white;
   padding: 10px;
 }
 
-.hevseltimesbackground::first-line + br + br + br {
+.hevseltimesbackground::fourth {
   content: "Join Us";
   position: absolute;
   word-wrap: break-word;
-  top: 35%;
+  top: 44%;
   left: 15%;
   font-size: 10px;
   color: white;
