@@ -330,6 +330,65 @@ html, body{
   width: 30%;
 }
 
+.hevseltimesbackground::first {
+  content: "About Us";
+  position: absolute;
+  word-wrap: break-word;
+  top: 35%;
+  left: 15%;
+  font-size: 10px;
+  color: White;
+  padding: 10px;
+}
+
+.hevseltimesbackground::second {
+  content: "Map";
+  position: absolute;
+  word-wrap: break-word;
+  top: 35%;
+  left: 15%;
+  font-size: 10px;
+  color: White;
+  padding: 10px;
+}
+
+.hevseltimesbackground::third {
+  content: "Countries";
+  position: absolute;
+  word-wrap: break-word;
+  top: 35%;
+  left: 15%;
+  font-size: 10px;
+  color: White;
+  padding: 10px;
+}
+
+.hevseltimesbackground::fourth {
+  content: "Join Us";
+  position: absolute;
+  word-wrap: break-word;
+  top: 35%;
+  left: 15%;
+  font-size: 10px;
+  color: White;
+  padding: 10px;
+}
+
+.hevseltimesbackground::first a {
+  text-decoration: none;
+}
+
+.hevseltimesbackground::second a {
+  text-decoration: none;
+}
+.hevseltimesbackground::third a {
+  text-decoration: none;
+}
+
+.hevseltimesbackground::fourth a {
+  text-decoration: none;
+}
+
 .main {
     margin-top: 30px;
     display: flex;
