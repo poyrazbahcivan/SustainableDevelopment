@@ -304,8 +304,8 @@ html, body{
 }
 
 .hevseltimesbackground {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .hevseltimesbackground::before {
@@ -314,79 +314,69 @@ html, body{
   top: 13%;
   left: 15%;
   font-size: 45px;
-  color: White;
+  color: white;
   padding: 10px;
 }
 
 .hevseltimesbackground::after {
-  content: "Hevsel Times fosters a community of young scientists who share passion for collaboration to create a sustainable impact in their communities.";
+  content: "Hevsel Times fosters a community of young scientists who share a passion for collaboration to create a sustainable impact in their communities.";
   position: absolute;
   word-wrap: break-word;
   top: 30%;
   left: 15%;
   font-size: 18px;
-  color: White;
+  color: white;
   padding: 10px;
   width: 30%;
 }
 
-.hevseltimesbackground::first {
+.hevseltimesbackground::first-letter {
   content: "About Us";
   position: absolute;
   word-wrap: break-word;
   top: 35%;
   left: 15%;
   font-size: 10px;
-  color: White;
+  color: white;
   padding: 10px;
 }
 
-.hevseltimesbackground::second {
+.hevseltimesbackground::first-line + br {
   content: "Map";
   position: absolute;
   word-wrap: break-word;
   top: 35%;
   left: 15%;
   font-size: 10px;
-  color: White;
+  color: white;
   padding: 10px;
 }
 
-.hevseltimesbackground::third {
+.hevseltimesbackground::first-line + br + br {
   content: "Countries";
   position: absolute;
   word-wrap: break-word;
   top: 35%;
   left: 15%;
   font-size: 10px;
-  color: White;
+  color: white;
   padding: 10px;
 }
 
-.hevseltimesbackground::fourth {
+.hevseltimesbackground::first-line + br + br + br {
   content: "Join Us";
   position: absolute;
   word-wrap: break-word;
   top: 35%;
   left: 15%;
   font-size: 10px;
-  color: White;
+  color: white;
   padding: 10px;
 }
 
-.hevseltimesbackground::first a {
+.hevseltimesbackground a {
   text-decoration: none;
-}
-
-.hevseltimesbackground::second a {
-  text-decoration: none;
-}
-.hevseltimesbackground::third a {
-  text-decoration: none;
-}
-
-.hevseltimesbackground::fourth a {
-  text-decoration: none;
+  color: white;
 }
 
 .main {
