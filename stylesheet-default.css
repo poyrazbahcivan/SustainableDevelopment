@@ -135,7 +135,8 @@ html, body{
 }
 
 .baban {
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 25px;
     text-align: center;
     word-wrap: break-word;
     padding: 10px;
@@ -145,7 +146,8 @@ html, body{
 }
 .baban h1 {
     font-size: 35px;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-bottom: 25px;
     text-align: center;
     word-wrap: break-word;
     padding: 10px;
