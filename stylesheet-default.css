@@ -136,9 +136,17 @@ html, body{
 .baban {
     margin-top: 60px;
     text-align: center;
+    word-wrap: break-word;
+    padding: 10px;
+    width: 60%;
 }
 .baban h1 {
     font-size: 35px;
+    margin-top: 60px;
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px;
+    width: 60%;
 }
 .baban img {
     border-radius: 50%;
