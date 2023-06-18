@@ -143,44 +143,6 @@ html, body{
 .baban img {
     border-radius: 50%;
 }
-.baban .ourTeam2 {
-    display: flex;
-    justify-content: center;
-}
-.baban .ourTeam2 .team_member {
-    width: 120px;
-    text-align: center;
-    margin: 50px;
-}
-.baban .ourTeam3 {
-    display: flex;
-    justify-content: center;
-}
-.baban .ourTeam3 .team_member {
-    width: 120px;
-    text-align: center;
-    margin: 50px;
-}
-
-.baban .ourTeam4 {
-    display: flex;
-    justify-content: center;
-}
-.baban .ourTeam4 .team_member {
-    width: 120px;
-    text-align: center;
-    margin: 50px;
-}
-
-.baban .ourTeam5 {
-    display: flex;
-    justify-content: center;
-}
-.baban .ourTeam5 .team_member {
-    width: 120px;
-    text-align: center;
-    margin: 50px;
-}
 
 .ububjub {
     border: 1px solid Black;
@@ -376,6 +338,7 @@ html, body{
     background-color: #ccc;
     width: 200px;
 }
+
 .left {
     display: block;
 }
@@ -386,10 +349,12 @@ html, body{
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid #000000;
     border-radius: 0;
     box-shadow: -6px 6px 18px rgba(0, 0, 0, 0.8);
 }
+
 .left .tables_of_data {
     position: relative;
     width: 100%;
