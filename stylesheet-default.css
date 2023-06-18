@@ -378,14 +378,14 @@ html, body{
 }
 .left {
     display: block;
-    float: left;
-
 }
+
 .left .datapage_flag {
     height: 30vh;
     width: auto;
-
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
     border: 1px solid #000000;
     border-radius: 0;
     box-shadow: -6px 6px 18px rgba(0, 0, 0, 0.8);
