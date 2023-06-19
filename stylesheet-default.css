@@ -454,7 +454,6 @@ html, body{
     transform: translate(-50%,0);
     max-width: 1000px;
     text-align: center;
-    color: Crimson;
     justify-content: center;
 }
 .list_scroll {
