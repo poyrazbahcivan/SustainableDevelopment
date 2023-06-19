@@ -120,6 +120,7 @@ html, body{
 }
 .annen .h12 {
     font-size: 35px;
+    color: Crimson;
     margin-bottom: 20px;
 }
 .annen img {
@@ -453,6 +454,7 @@ html, body{
     transform: translate(-50%,0);
     max-width: 1000px;
     text-align: center;
+    color: Crimson;
     justify-content: center;
 }
 .list_scroll {
