@@ -104,7 +104,8 @@ html, body{
 #credit{
     margin-top: 15px;
     margin-left: 17px;
-    font-size: 15px;
+    padding-right: 180px;
+    font-size: 14px;
     font-family: 'Times New Roman';
 }
 
