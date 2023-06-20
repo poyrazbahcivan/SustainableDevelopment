@@ -21,13 +21,6 @@
 
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
-    <script>
-        $(function(){
-            $('#header').load('header.html');
-        });
-    </script>
-
-
     <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world-merc.js"></script>
@@ -36,14 +29,20 @@
     <header id="header"></header>
     <div style="height: 90%;" id="map"></div>
     <script>
-        var map = new jsVectorMap({
-            selector: "#map",
-            map: "world_merc",
-            showTooltip: true,
-            zoomButtons: false,
-            visualizeData: {
-                scale: ['#E41010', '#3DE40C'],
-                values: {
+        var tooltip = $('<div>', {
+            class: 'jvectormap-tip'
+        }).appendTo('body');
+
+        $(function(){
+            $('#header').load('header.html');
+        });
+
+        var map = new jvm.Map({
+            container: $('#map'),
+            map: 'world_merc',
+            series: {
+                regions: [{
+                    values: {
                      AF: 52.49,
                      AL: 71.63,
                      DZ: 71.54,
@@ -206,51 +205,34 @@
                      YE: 52.08,
                      ZM: 54.16,
                      ZW: 56.77,
-                },
-                hover: {
-                    fill: '#30af91',
-                    stroke: '#313131',
-                    strokeWidth: 0.4,
-                    fillOpacity: 1,
-                    onRegionTipShow: function (event, code, region) {
-                        var countryData = map.series.regions[0].values[code];
-                        var tooltipContent = code.toUpperCase() + ': ' + countryData;
-                        tooltip.text(tooltipContent).show();
                     },
-                    onRegionTipHide: function (event, code, region) {
-                        tooltip.hide();
-                    }
-                }
+                    scale: ['#E41010', '#3DE40C'],
+                    normalizeFunction: 'polynomial',
+                    min: 0,
+                    max: 100
+                }]
             },
-            onRegionClick:function(event, code){            
-                var name = (code);                          
-                var code = code.toLowerCase();
-                window.open("countrydata.html#"+code,"_self");
+            hoverOpacity: 0.7,
+            hoverColor: false,
+            onRegionTipShow: function (event, code, region) {
+                var countryData = map.series.regions[0].values[code];
+                var tooltipContent = code.toUpperCase() + ': ' + countryData;
+                tooltip.text(tooltipContent).show();
+            },
+            onRegionTipHide: function (event, code, region) {
+                tooltip.hide();
+            },
+            onRegionClick: function(event, code) {
+                var countryCode = code.toLowerCase();
+                window.open("countrydata.html#" + countryCode, "_self");
             }
         });
 
-        var tooltip = $('<div>', {
-            class: 'jvectormap-tip'
-        }).appendTo('body');
-
-        map.container.mousemove(function (e) {
-            var posX = e.pageX + 10,
-                posY = e.pageY + 10;
+        $(document).mousemove(function(e) {
             tooltip.css({
-                top: posY,
-                left: posX
+                top: e.pageY + 10,
+                left: e.pageX + 10
             });
-        });
-
-        map.container.on('mouseover', '.jvectormap-region', function () {
-            var regionCode = $(this).attr('data-code');
-            var countryData = map.series.regions[0].values[regionCode];
-            var tooltipContent = regionCode.toUpperCase() + ': ' + countryData;
-            tooltip.text(tooltipContent).show();
-        });
-
-        map.container.on('mouseout', '.jvectormap-region', function () {
-            tooltip.hide();
         });
     </script>
 </body>
