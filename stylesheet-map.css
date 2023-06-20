@@ -24,7 +24,6 @@ body, html {
 
 .jvectormap-tip {
     position: absolute;
-    display: none;
     border: solid 1px #CDCDCD;
     border-radius: 3px;
     background: #292929;
@@ -138,11 +137,10 @@ body, html {
 .custom-tooltip {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    color: #000000;
     padding: 5px;
     font-size: 12px;
     z-index: 9999;
-    display: none;
 }
 
 .jvectormap-legend-cnt-h .jvectormap-legend-tick-text {
