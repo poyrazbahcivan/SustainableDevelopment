@@ -220,6 +220,23 @@
         var tooltip = $('<div>', {
             class: 'custom-tooltip'
         }).appendTo('body');
+        map.container.mousemove(function (e) {
+            var posX = e.pageX + 10,
+                posY = e.pageY + 10;
+            tooltip.css({
+                top: posY,
+                left: posX
+            });
+        });
+        map.container.on('mouseover', '.jvectormap-region', function () {
+            var regionCode = $(this).attr('data-code');
+            var countryData = map.series.regions[0].values[regionCode];
+            var tooltipContent = regionCode.toUpperCase() + ': ' + countryData;
+            tooltip.text(tooltipContent).show();
+        });
+        map.container.on('mouseout', '.jvectormap-region', function () {
+            tooltip.hide();
+        });
     </script>
 </body>
 </html>
