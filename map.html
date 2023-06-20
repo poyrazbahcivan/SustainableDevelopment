@@ -40,6 +40,8 @@
         var map = new jvm.Map({
             container: $('#map'),
             map: 'world_merc',
+            showTooltip: true,
+            zoomButtons: false,
             series: {
                 regions: [{
                     values: {
@@ -207,32 +209,32 @@
                      ZW: 56.77,
                     },
                     scale: ['#E41010', '#3DE40C'],
-                    normalizeFunction: 'polynomial',
-                    min: 0,
-                    max: 100
+                    normalizeFunction: 'polynomial'
                 }]
             },
-            hoverOpacity: 0.7,
-            hoverColor: false,
-            onRegionTipShow: function (event, code, region) {
+            regionStyle: {
+                initial: {
+                    fill: '#CDCDCD'
+                },
+                hover: {
+                    fill: '#30af91',
+                    stroke: '#313131',
+                    strokeWidth: 0.4,
+                    fillOpacity: 1
+                }
+            },
+            onRegionTipShow: function (e, el, code) {
                 var countryData = map.series.regions[0].values[code];
                 var tooltipContent = code.toUpperCase() + ': ' + countryData;
                 tooltip.text(tooltipContent).show();
             },
-            onRegionTipHide: function (event, code, region) {
+            onRegionTipHide: function (e, el, code) {
                 tooltip.hide();
             },
-            onRegionClick: function(event, code) {
+            onRegionClick: function (e, code) {
                 var countryCode = code.toLowerCase();
                 window.open("countrydata.html#" + countryCode, "_self");
             }
-        });
-
-        $(document).mousemove(function(e) {
-            tooltip.css({
-                top: e.pageY + 10,
-                left: e.pageX + 10
-            });
         });
     </script>
 </body>
