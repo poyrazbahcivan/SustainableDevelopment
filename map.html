@@ -201,25 +201,25 @@
                      stroke: '#313131',
                      strokeWidth: 0.4,
                      fillOpacity: 1,
-                     onHover: function (event, code) {
+                     onRegionTipShow: function (event, code, region) {
                          var countryData = map.series.regions[0].values[code];
                          var tooltipContent = code.toUpperCase() + ': ' + countryData;
                          tooltip.text(tooltipContent).show();
                      },
-                     onHoverOff: function () {
+                     onRegionTipHide: function (event, code, region) {
                          tooltip.hide();
                      }
                  }
             },
-            var tooltip = $('<div>', {
-                class: 'custom-tooltip'
-            }).appendTo('body');
             onRegionClick:function(event, code){            
                       var name = (code);                          
                       var code = code.toLowerCase();
                       window.open("countrydata.html#"+code,"_self");
                       }
                  });
+        var tooltip = $('<div>', {
+            class: 'custom-tooltip'
+        }).appendTo('body');
     </script>
 </body>
 </html>
