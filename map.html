@@ -6,7 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustainable Development</title>
     <link rel="stylesheet" href="stylesheet-map.css" />
-    
+    <style>
+        .jvectormap-tip {
+            position: absolute;
+            border: solid 1px #CDCDCD;
+            border-radius: 3px;
+            background: #292929;
+            color: white;
+            font-family: sans-serif, Verdana;
+            font-size: smaller;
+            padding: 3px;
+        }
+    </style>
 
     <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 
@@ -15,7 +26,7 @@
             $('#header').load('header.html');
         });
     </script>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
 
@@ -30,9 +41,9 @@
             map: "world_merc",
             showTooltip: true,
             zoomButtons: false,
-             visualizeData: {
-                 scale: ['#E41010', '#3DE40C'],
-                 values: {
+            visualizeData: {
+                scale: ['#E41010', '#3DE40C'],
+                values: {
                      AF: 52.49,
                      AL: 71.63,
                      DZ: 71.54,
@@ -196,31 +207,32 @@
                      ZM: 54.16,
                      ZW: 56.77,
                 },
-                 hover: {
-                     fill: '#30af91',
-                     stroke: '#313131',
-                     strokeWidth: 0.4,
-                     fillOpacity: 1,
-                     onRegionTipShow: function (event, code, region) {
-                         var countryData = map.series.regions[0].values[code];
-                         var tooltipContent = code.toUpperCase() + ': ' + countryData;
-                         tooltip.text(tooltipContent).show();
-                     },
-                     onRegionTipHide: function (event, code, region) {
-                         tooltip.hide();
-                     }
-                 }
+                hover: {
+                    fill: '#30af91',
+                    stroke: '#313131',
+                    strokeWidth: 0.4,
+                    fillOpacity: 1,
+                    onRegionTipShow: function (event, code, region) {
+                        var countryData = map.series.regions[0].values[code];
+                        var tooltipContent = code.toUpperCase() + ': ' + countryData;
+                        tooltip.text(tooltipContent).show();
+                    },
+                    onRegionTipHide: function (event, code, region) {
+                        tooltip.hide();
+                    }
+                }
             },
             onRegionClick:function(event, code){            
-                      var name = (code);                          
-                      var code = code.toLowerCase();
-                      window.open("countrydata.html#"+code,"_self");
-                      }
-                 });
-        var tooltip = $('.custom-tooltip');
+                var name = (code);                          
+                var code = code.toLowerCase();
+                window.open("countrydata.html#"+code,"_self");
+            }
+        });
+
         var tooltip = $('<div>', {
-            class: 'custom-tooltip'
+            class: 'jvectormap-tip'
         }).appendTo('body');
+
         map.container.mousemove(function (e) {
             var posX = e.pageX + 10,
                 posY = e.pageY + 10;
@@ -229,12 +241,14 @@
                 left: posX
             });
         });
+
         map.container.on('mouseover', '.jvectormap-region', function () {
             var regionCode = $(this).attr('data-code');
             var countryData = map.series.regions[0].values[regionCode];
             var tooltipContent = regionCode.toUpperCase() + ': ' + countryData;
             tooltip.text(tooltipContent).show();
         });
+
         map.container.on('mouseout', '.jvectormap-region', function () {
             tooltip.hide();
         });
