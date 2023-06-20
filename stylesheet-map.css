@@ -135,6 +135,17 @@ body, html {
     font-size: 12px;
 }
 
+.custom-tooltip {
+    position: absolute;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
 .jvectormap-legend-cnt-h .jvectormap-legend-tick-text {
     text-align: center;
 }
