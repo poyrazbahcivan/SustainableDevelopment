@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>World Map</title>
-  <link rel="stylesheet" href="jquery-jvectormap-2.0.5.css" type="text/css" media="screen"/>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="jquery-jvectormap-2.0.5.min.js"></script>
-  <script src="jquery-jvectormap-world-mill.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Development</title>
+    <link rel="stylesheet" href="stylesheet-map.css" />
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+            $('#header').load('header.html');
+        });
+    </script>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world-merc.js"></script>
 </head>
 <body>
-  <div id="world-map" style="width: 600px; height: 400px;"></div>
-
-  <script>
-    $(function() {
-      $('#world-map').vectorMap({
-        map: 'world_merc',
-        series: {
-          regions: [{
-            values: {
+    <header id="header"></header>
+    <div style="height: 90%;" id="map"></div>
+    <script>
+        var map = new jsVectorMap({
+            selector: "#map",
+            map: "world_merc",
+            showTooltip: true,
+            zoomButtons: false,
+             visualizeData: {
+                 scale: ['#E41010', '#3DE40C'],
+                 values: {
                      AF: 52.49,
                      AL: 71.63,
                      DZ: 71.54,
@@ -181,16 +196,19 @@
                      ZM: 54.16,
                      ZW: 56.77,
                 },
-            scale: ['#E41010', '#3DE40C'],
-            normalizeFunction: 'polynomial',
-          }]
-        },
-        onRegionTipShow: function(event, label, code) {
-          var value = label.html();
-          label.html(value + ' - Value: ' + this.series.regions[0].values[code]);
-        }
-      });
-    });
-  </script>
+                hover: {
+                    fill: '#30af91',
+                    stroke: "#313131",
+                    strokeWidth: 0.4,
+                    fillOpacity: 1
+                },
+            },
+            onRegionClick:function(event, code){            
+                      var name = (code);                          
+                      var code = code.toLowerCase();
+                      window.open("countrydata.html#"+code,"_self");
+                      }
+                 });
+    </script>
 </body>
 </html>
