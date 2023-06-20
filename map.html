@@ -196,13 +196,24 @@
                      ZM: 54.16,
                      ZW: 56.77,
                 },
-                hover: {
-                    fill: '#30af91',
-                    stroke: "#313131",
-                    strokeWidth: 0.4,
-                    fillOpacity: 1
-                },
+                 hover: {
+                     fill: '#30af91',
+                     stroke: '#313131',
+                     strokeWidth: 0.4,
+                     fillOpacity: 1,
+                     onHover: function (event, code) {
+                         var countryData = map.series.regions[0].values[code];
+                         var tooltipContent = code.toUpperCase() + ': ' + countryData;
+                         tooltip.text(tooltipContent).show();
+                     },
+                     onHoverOff: function () {
+                         tooltip.hide();
+                     }
+                 }
             },
+            var tooltip = $('<div>', {
+                class: 'custom-tooltip'
+            }).appendTo('body');
             onRegionClick:function(event, code){            
                       var name = (code);                          
                       var code = code.toLowerCase();
