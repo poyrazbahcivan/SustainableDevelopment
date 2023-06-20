@@ -137,13 +137,12 @@ body, html {
 
 .custom-tooltip {
     position: absolute;
-    display: none;
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
-    font-size: 12px;
     padding: 5px;
-    border-radius: 4px;
-    pointer-events: none;
+    font-size: 12px;
+    z-index: 9999;
+    display: none;
 }
 
 .jvectormap-legend-cnt-h .jvectormap-legend-tick-text {
