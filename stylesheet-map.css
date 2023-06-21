@@ -6,12 +6,11 @@ body, html {
     height: 100%;
 }
   
-#map{
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
+.jvectormap-container {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jvectormap-container {
@@ -23,14 +22,10 @@ body, html {
 }
 
 .jvectormap-tip {
-    position: absolute;
-    border: solid 1px #CDCDCD;
-    border-radius: 3px;
-    z-index: 99;
-    background: #000000;
-    color: white;
-    padding: 3px;
+    display: none;
+    z-index: 100;
 }
+
 
 .jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback {
     position: absolute;
