@@ -319,15 +319,18 @@ html, body{
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
-.column{
+.column {
     width: 200px;
     box-shadow: -6px 5px 18px rgba(0, 0, 0, 0.8);
-    display: block;
-    float: right;
     height: 80%;
-
+    position: fixed; /* Change from float to fixed */
+    right: 0;       /* Stick to the right */
+    top: 10%;       /* Adjust top as needed */
+    display: block;
 }
+
 .column .head {
     color: Crimson;
     background-color: WhiteSmoke;
@@ -364,6 +367,7 @@ html, body{
 
 .left {
     display: block;
+    margin-left: 8vw;
 }
 
 .left .datapage_flag {
