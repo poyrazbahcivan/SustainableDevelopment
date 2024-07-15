@@ -285,12 +285,18 @@ html, body{
 .hevseltimesbackground {
   position: relative;
   display: inline-block;
+  width: 100%;
+  height: auto;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .hevseltimesbackground::before {
   content: "Hevsel Times";
   position: absolute;
-  top: 13%;
+  top: 18%;
   left: 15%;
   font-size: 45px;
   color: white;
@@ -301,7 +307,7 @@ html, body{
   content: "Sustainable Development Map by Hevsel Times fosters a community of young scientists who share a passion for collaboration to create a sustainable impact in their communities.";
   position: absolute;
   word-wrap: break-word;
-  top: 30%;
+  top: 36%;
   left: 15%;
   font-size: 18px;
   color: white;
